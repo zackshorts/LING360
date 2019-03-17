@@ -1,0 +1,2688 @@
+{
+  "created_at": "Tue Mar 12 16:40:41 +0000 2019",
+  "id": 1105508924403331073,
+  "id_str": "1105508924403331073",
+  "full_text": "It's #NationalPancakeDay! Let us know what your favorite pancakes are https://t.co/7ZeQCN6JJP",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    69
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          5,
+          24
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "id": 1105508058770243585,
+        "id_str": "1105508058770243585",
+        "indices": [
+          70,
+          93
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eNuONVAAEWGQb.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eNuONVAAEWGQb.jpg",
+        "url": "https://t.co/7ZeQCN6JJP",
+        "display_url": "pic.twitter.com/7ZeQCN6JJP",
+        "expanded_url": "https://twitter.com/GoogleTrends/status/1105508924403331073/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1024,
+            "h": 517,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 343,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 517,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105508058770243585,
+        "id_str": "1105508058770243585",
+        "indices": [
+          70,
+          93
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eNuONVAAEWGQb.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eNuONVAAEWGQb.jpg",
+        "url": "https://t.co/7ZeQCN6JJP",
+        "display_url": "pic.twitter.com/7ZeQCN6JJP",
+        "expanded_url": "https://twitter.com/GoogleTrends/status/1105508924403331073/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1024,
+            "h": 517,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 343,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 517,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 3119988399,
+    "id_str": "3119988399",
+    "name": "GoogleTrends",
+    "screen_name": "GoogleTrends",
+    "location": "California",
+    "description": "Official Google data and visualizations from the @GoogleNewsInit team",
+    "url": "https://t.co/GAleG6JxUy",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/GAleG6JxUy",
+            "expanded_url": "https://www.google.com/trends/",
+            "display_url": "google.com/trends/",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 410901,
+    "friends_count": 6,
+    "listed_count": 2912,
+    "created_at": "Thu Mar 26 22:59:01 +0000 2015",
+    "favourites_count": 18,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 8185,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "022330",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/880534343008927744/cRCD7iF7_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/880534343008927744/cRCD7iF7_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3119988399/1441130779",
+    "profile_link_color": "000000",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 1,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}
+{
+  "created_at": "Tue Mar 12 16:40:41 +0000 2019",
+  "id": 1105508922394329088,
+  "id_str": "1105508922394329088",
+  "full_text": "It's #NationalPancakeDay so we've got a fabulous chocolate pancake recipe for you from @tasty https://t.co/Gt7UGgHWCX #chocolate #pleasesendchocolate https://t.co/u9OhjZMD6V",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    149
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          5,
+          24
+        ]
+      },
+      {
+        "text": "chocolate",
+        "indices": [
+          118,
+          128
+        ]
+      },
+      {
+        "text": "pleasesendchocolate",
+        "indices": [
+          129,
+          149
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "tasty",
+        "name": "Tasty",
+        "id": 4020532937,
+        "id_str": "4020532937",
+        "indices": [
+          87,
+          93
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/Gt7UGgHWCX",
+        "expanded_url": "https://tasty.co/recipe/chocolate-pancakes",
+        "display_url": "tasty.co/recipe/chocola\u2026",
+        "indices": [
+          94,
+          117
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 1105508886264643584,
+        "id_str": "1105508886264643584",
+        "indices": [
+          150,
+          173
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOeY3XgAAzM5x.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOeY3XgAAzM5x.jpg",
+        "url": "https://t.co/u9OhjZMD6V",
+        "display_url": "pic.twitter.com/u9OhjZMD6V",
+        "expanded_url": "https://twitter.com/pleasesendchoco/status/1105508922394329088/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 952,
+            "h": 878,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 627,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 952,
+            "h": 878,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105508886264643584,
+        "id_str": "1105508886264643584",
+        "indices": [
+          150,
+          173
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOeY3XgAAzM5x.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOeY3XgAAzM5x.jpg",
+        "url": "https://t.co/u9OhjZMD6V",
+        "display_url": "pic.twitter.com/u9OhjZMD6V",
+        "expanded_url": "https://twitter.com/pleasesendchoco/status/1105508922394329088/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 952,
+            "h": 878,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 627,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 952,
+            "h": 878,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1070739367642193920,
+    "id_str": "1070739367642193920",
+    "name": "Please Send Chocolate",
+    "screen_name": "pleasesendchoco",
+    "location": "United States",
+    "description": "Find chocolate. Have it shipped. Enjoy it. Be happy. #chocolate #chocolates",
+    "url": "https://t.co/ijegsnzeGV",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ijegsnzeGV",
+            "expanded_url": "https://pleasesendchocolate.com",
+            "display_url": "pleasesendchocolate.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 66,
+    "friends_count": 325,
+    "listed_count": 0,
+    "created_at": "Thu Dec 06 17:58:53 +0000 2018",
+    "favourites_count": 200,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 101,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1070739816789233664/M2xbQOir_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1070739816789233664/M2xbQOir_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1070739367642193920/1544119288",
+    "profile_link_color": "FAB81E",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}
+{
+  "created_at": "Tue Mar 12 16:40:38 +0000 2019",
+  "id": 1105508911480737792,
+  "id_str": "1105508911480737792",
+  "full_text": "RT @T_DDaxion27: Happy #NationalPancakeDay @thedonaldreddit https://t.co/mbA1OfXj7F",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    83
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          23,
+          42
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "T_DDaxion27",
+        "name": "Daxion",
+        "id": 869836988123361280,
+        "id_str": "869836988123361280",
+        "indices": [
+          3,
+          15
+        ]
+      },
+      {
+        "screen_name": "thedonaldreddit",
+        "name": "/r/The_Donald",
+        "id": 4380273612,
+        "id_str": "4380273612",
+        "indices": [
+          43,
+          59
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1105451276408627200,
+        "id_str": "1105451276408627200",
+        "indices": [
+          60,
+          83
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+        "url": "https://t.co/mbA1OfXj7F",
+        "display_url": "pic.twitter.com/mbA1OfXj7F",
+        "expanded_url": "https://twitter.com/T_DDaxion27/status/1105451319698038784/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 305,
+            "h": 449,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 305,
+            "h": 449,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 305,
+            "h": 449,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 1105451319698038784,
+        "source_status_id_str": "1105451319698038784",
+        "source_user_id": 869836988123361280,
+        "source_user_id_str": "869836988123361280"
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105451276408627200,
+        "id_str": "1105451276408627200",
+        "indices": [
+          60,
+          83
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+        "url": "https://t.co/mbA1OfXj7F",
+        "display_url": "pic.twitter.com/mbA1OfXj7F",
+        "expanded_url": "https://twitter.com/T_DDaxion27/status/1105451319698038784/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 305,
+            "h": 449,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 305,
+            "h": 449,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 305,
+            "h": 449,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 1105451319698038784,
+        "source_status_id_str": "1105451319698038784",
+        "source_user_id": 869836988123361280,
+        "source_user_id_str": "869836988123361280"
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1259574180,
+    "id_str": "1259574180",
+    "name": "Conservative Belle",
+    "screen_name": "BelleForTrump",
+    "location": "Florida, USA",
+    "description": "President Trump 2020 #PresidentTrump2020",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 5472,
+    "friends_count": 4647,
+    "listed_count": 206,
+    "created_at": "Mon Mar 11 14:25:29 +0000 2013",
+    "favourites_count": 154065,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 114039,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "BADFCD",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/820757135558483968/H4ntEmXV_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/820757135558483968/H4ntEmXV_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1259574180/1485396006",
+    "profile_link_color": "FF0000",
+    "profile_sidebar_border_color": "F2E195",
+    "profile_sidebar_fill_color": "FFF7CC",
+    "profile_text_color": "0C3E53",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Tue Mar 12 12:51:47 +0000 2019",
+    "id": 1105451319698038784,
+    "id_str": "1105451319698038784",
+    "full_text": "Happy #NationalPancakeDay @thedonaldreddit https://t.co/mbA1OfXj7F",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      42
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NationalPancakeDay",
+          "indices": [
+            6,
+            25
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "thedonaldreddit",
+          "name": "/r/The_Donald",
+          "id": 4380273612,
+          "id_str": "4380273612",
+          "indices": [
+            26,
+            42
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1105451276408627200,
+          "id_str": "1105451276408627200",
+          "indices": [
+            43,
+            66
+          ],
+          "media_url": "http://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+          "url": "https://t.co/mbA1OfXj7F",
+          "display_url": "pic.twitter.com/mbA1OfXj7F",
+          "expanded_url": "https://twitter.com/T_DDaxion27/status/1105451319698038784/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 305,
+              "h": 449,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 305,
+              "h": 449,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 305,
+              "h": 449,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1105451276408627200,
+          "id_str": "1105451276408627200",
+          "indices": [
+            43,
+            66
+          ],
+          "media_url": "http://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D1daFDbWoAAwA9u.jpg",
+          "url": "https://t.co/mbA1OfXj7F",
+          "display_url": "pic.twitter.com/mbA1OfXj7F",
+          "expanded_url": "https://twitter.com/T_DDaxion27/status/1105451319698038784/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 305,
+              "h": 449,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 305,
+              "h": 449,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 305,
+              "h": 449,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 869836988123361280,
+      "id_str": "869836988123361280",
+      "name": "Daxion",
+      "screen_name": "T_DDaxion27",
+      "location": "The Land of the Free",
+      "description": "Certified Patriot // r/The_Donald Shitposter // Guilty of being a straight, white male",
+      "url": "https://t.co/dGnhv6pwLf",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/dGnhv6pwLf",
+              "expanded_url": "http://youtube.com/channel/UCnfWrKkxI0rti2c94k6OgkA",
+              "display_url": "youtube.com/channel/UCnfWr\u2026",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 109,
+      "friends_count": 38,
+      "listed_count": 1,
+      "created_at": "Wed May 31 08:44:33 +0000 2017",
+      "favourites_count": 5362,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 680,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1100844582198116353/Dlk2f2Ka_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1100844582198116353/Dlk2f2Ka_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/869836988123361280/1551296549",
+      "profile_link_color": "981CEB",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 16,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": true,
+  "lang": "en"
+}
+{
+  "created_at": "Tue Mar 12 16:40:38 +0000 2019",
+  "id": 1105508910197284864,
+  "id_str": "1105508910197284864",
+  "full_text": "#TheBachelor #TheBachelorFinale #RussellWestbrook #NationalPancakeDay #JusticeForChristine #TuesdayMotivation #Web30\u2060 \u2060 #QueenRadioLondon #Boeing #312Day #comedy https://t.co/IsCXaoBEYc",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    161
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "TheBachelor",
+        "indices": [
+          0,
+          12
+        ]
+      },
+      {
+        "text": "TheBachelorFinale",
+        "indices": [
+          13,
+          31
+        ]
+      },
+      {
+        "text": "RussellWestbrook",
+        "indices": [
+          32,
+          49
+        ]
+      },
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          50,
+          69
+        ]
+      },
+      {
+        "text": "JusticeForChristine",
+        "indices": [
+          70,
+          90
+        ]
+      },
+      {
+        "text": "TuesdayMotivation",
+        "indices": [
+          91,
+          109
+        ]
+      },
+      {
+        "text": "Web30",
+        "indices": [
+          110,
+          116
+        ]
+      },
+      {
+        "text": "QueenRadioLondon",
+        "indices": [
+          120,
+          137
+        ]
+      },
+      {
+        "text": "Boeing",
+        "indices": [
+          138,
+          145
+        ]
+      },
+      {
+        "text": "312Day",
+        "indices": [
+          146,
+          153
+        ]
+      },
+      {
+        "text": "comedy",
+        "indices": [
+          154,
+          161
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "id": 1105508905126449152,
+        "id_str": "1105508905126449152",
+        "indices": [
+          162,
+          185
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOffIX0AAkzoM.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOffIX0AAkzoM.jpg",
+        "url": "https://t.co/IsCXaoBEYc",
+        "display_url": "pic.twitter.com/IsCXaoBEYc",
+        "expanded_url": "https://twitter.com/bitcheslasagna/status/1105508910197284864/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 382,
+            "h": 680,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 675,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 750,
+            "h": 1334,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105508905126449152,
+        "id_str": "1105508905126449152",
+        "indices": [
+          162,
+          185
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOffIX0AAkzoM.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOffIX0AAkzoM.jpg",
+        "url": "https://t.co/IsCXaoBEYc",
+        "display_url": "pic.twitter.com/IsCXaoBEYc",
+        "expanded_url": "https://twitter.com/bitcheslasagna/status/1105508910197284864/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 382,
+            "h": 680,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 675,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 750,
+            "h": 1334,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "und",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1071092443381202945,
+    "id_str": "1071092443381202945",
+    "name": "world of memes",
+    "screen_name": "bitcheslasagna",
+    "location": "Orlando, FL",
+    "description": "I will rule the world with my memes",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 187,
+    "friends_count": 510,
+    "listed_count": 0,
+    "created_at": "Fri Dec 07 17:21:53 +0000 2018",
+    "favourites_count": 36,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 184,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1082758238477713408/L5y0ozL8_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1082758238477713408/L5y0ozL8_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1071092443381202945/1544203469",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "und"
+}
+{
+  "created_at": "Tue Mar 12 16:40:37 +0000 2019",
+  "id": 1105508906632167425,
+  "id_str": "1105508906632167425",
+  "full_text": "RT @NLLwings: Happy #NationalPancakeDay is a fun holiday https://t.co/hRqAnafKT5",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    80
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          20,
+          39
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "NLLwings",
+        "name": "Philadelphia Wings",
+        "id": 897525202271313925,
+        "id_str": "897525202271313925",
+        "indices": [
+          3,
+          12
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1105486674954502145,
+        "id_str": "1105486674954502145",
+        "indices": [
+          57,
+          80
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+        "url": "https://t.co/hRqAnafKT5",
+        "display_url": "pic.twitter.com/hRqAnafKT5",
+        "expanded_url": "https://twitter.com/NLLwings/status/1105486681703153664/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 480,
+            "h": 270,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 480,
+            "h": 270,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 480,
+            "h": 270,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 1105486681703153664,
+        "source_status_id_str": "1105486681703153664",
+        "source_user_id": 897525202271313925,
+        "source_user_id_str": "897525202271313925"
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105486674954502145,
+        "id_str": "1105486674954502145",
+        "indices": [
+          57,
+          80
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+        "url": "https://t.co/hRqAnafKT5",
+        "display_url": "pic.twitter.com/hRqAnafKT5",
+        "expanded_url": "https://twitter.com/NLLwings/status/1105486681703153664/photo/1",
+        "type": "animated_gif",
+        "sizes": {
+          "medium": {
+            "w": 480,
+            "h": 270,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 480,
+            "h": 270,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 480,
+            "h": 270,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 1105486681703153664,
+        "source_status_id_str": "1105486681703153664",
+        "source_user_id": 897525202271313925,
+        "source_user_id_str": "897525202271313925",
+        "video_info": {
+          "aspect_ratio": [
+            16,
+            9
+          ],
+          "variants": [
+            {
+              "bitrate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/D1d6RhSXQAEY9-i.mp4"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 987838327,
+    "id_str": "987838327",
+    "name": "Casey \u2667",
+    "screen_name": "Pettineson",
+    "location": "PhilaChicago",
+    "description": "world record hatchet thrower",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 450,
+    "friends_count": 447,
+    "listed_count": 1,
+    "created_at": "Tue Dec 04 02:02:57 +0000 2012",
+    "favourites_count": 6164,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 7591,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1047950620488024064/Azxh_RyZ_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1047950620488024064/Azxh_RyZ_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/987838327/1538080555",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Tue Mar 12 15:12:18 +0000 2019",
+    "id": 1105486681703153664,
+    "id_str": "1105486681703153664",
+    "full_text": "Happy #NationalPancakeDay is a fun holiday https://t.co/hRqAnafKT5",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      42
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NationalPancakeDay",
+          "indices": [
+            6,
+            25
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1105486674954502145,
+          "id_str": "1105486674954502145",
+          "indices": [
+            43,
+            66
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+          "url": "https://t.co/hRqAnafKT5",
+          "display_url": "pic.twitter.com/hRqAnafKT5",
+          "expanded_url": "https://twitter.com/NLLwings/status/1105486681703153664/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 480,
+              "h": 270,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 480,
+              "h": 270,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 480,
+              "h": 270,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1105486674954502145,
+          "id_str": "1105486674954502145",
+          "indices": [
+            43,
+            66
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D1d6RhSXQAEY9-i.jpg",
+          "url": "https://t.co/hRqAnafKT5",
+          "display_url": "pic.twitter.com/hRqAnafKT5",
+          "expanded_url": "https://twitter.com/NLLwings/status/1105486681703153664/photo/1",
+          "type": "animated_gif",
+          "sizes": {
+            "medium": {
+              "w": 480,
+              "h": 270,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 480,
+              "h": 270,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 480,
+              "h": 270,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/D1d6RhSXQAEY9-i.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 897525202271313925,
+      "id_str": "897525202271313925",
+      "name": "Philadelphia Wings",
+      "screen_name": "NLLwings",
+      "location": "Philadelphia, PA",
+      "description": "The Official Account of The Philadelphia Wings, a newish @NLL team #WeFlyTogether",
+      "url": "https://t.co/8CiMD2Y3YC",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/8CiMD2Y3YC",
+              "expanded_url": "http://wingslax.com",
+              "display_url": "wingslax.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8285,
+      "friends_count": 536,
+      "listed_count": 51,
+      "created_at": "Tue Aug 15 18:27:38 +0000 2017",
+      "favourites_count": 6250,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 2207,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/963082263788441601/F4a5BGkb_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/963082263788441601/F4a5BGkb_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/897525202271313925/1544219348",
+      "profile_link_color": "C0A85C",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 12,
+    "favorite_count": 25,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 12,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}
+{
+  "created_at": "Tue Mar 12 16:40:36 +0000 2019",
+  "id": 1105508902551072769,
+  "id_str": "1105508902551072769",
+  "full_text": "#NewsFlash #news #NationalPancakeDay https://t.co/Soe4NKtutU",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    36
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "NewsFlash",
+        "indices": [
+          0,
+          10
+        ]
+      },
+      {
+        "text": "news",
+        "indices": [
+          11,
+          16
+        ]
+      },
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          17,
+          36
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/Soe4NKtutU",
+        "expanded_url": "https://twitter.com/rlamartini/status/1105121714491588608",
+        "display_url": "twitter.com/rlamartini/sta\u2026",
+        "indices": [
+          37,
+          60
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "und",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 923984176193462272,
+    "id_str": "923984176193462272",
+    "name": "The Fugly Frog",
+    "screen_name": "TheFuglyFrog",
+    "location": "Divided States of Dumerica",
+    "description": "Opinions are like assholes--\neveryone has one and they all stink!\n\n \n\n14yrs CPP Ex plumber 20yrs-LEO-\n\ud83c\uddfa\ud83c\uddf8American-Patriot-Asshole-Individualist\n#opioidhysteria",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 623,
+    "friends_count": 132,
+    "listed_count": 5,
+    "created_at": "Fri Oct 27 18:46:09 +0000 2017",
+    "favourites_count": 10438,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 9889,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1092595379474964480/-Web67hS_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1092595379474964480/-Web67hS_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/923984176193462272/1539448775",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": true,
+  "quoted_status_id": 1105121714491588608,
+  "quoted_status_id_str": "1105121714491588608",
+  "quoted_status": {
+    "created_at": "Mon Mar 11 15:02:03 +0000 2019",
+    "id": 1105121714491588608,
+    "id_str": "1105121714491588608",
+    "full_text": "A large number of patients complaining of pain are being mistreated in emergency rooms especially if already taking pain meds. Most are not seeking pain meds but those that are turn out to be almost exclusively un/under treated pain patients, not addicts! https://t.co/Jefwc2CacM",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Jefwc2CacM",
+          "expanded_url": "https://themighty.com/2018/08/seen-as-seeking-pain-medication/",
+          "display_url": "themighty.com/2018/08/seen-a\u2026",
+          "indices": [
+            256,
+            279
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "und",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 258546506,
+      "id_str": "258546506",
+      "name": "R. Lamartiniere, MD",
+      "screen_name": "rlamartini",
+      "location": "South Louisiana",
+      "description": "Internal Medicine Direct Primary Care physician in Baton Rouge, LA #MAGA #MHCGA Make Health Care Great Again. Nascar fan. Luv the Saints & LSU.",
+      "url": "https://t.co/e0Tm6yKs1j",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/e0Tm6yKs1j",
+              "expanded_url": "http://www.docrandy.biz",
+              "display_url": "docrandy.biz",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2758,
+      "friends_count": 1699,
+      "listed_count": 93,
+      "created_at": "Sun Feb 27 23:49:33 +0000 2011",
+      "favourites_count": 40066,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 38950,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/925412358029238272/WLlb7STl_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/925412358029238272/WLlb7STl_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/258546506/1470775032",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 54,
+    "favorite_count": 113,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "und"
+}
+{
+  "created_at": "Tue Mar 12 16:40:35 +0000 2019",
+  "id": 1105508899891937286,
+  "id_str": "1105508899891937286",
+  "full_text": "#NationalPancakeDay...\nThis pankie day drives me nuts, so, here u have it. https://t.co/jfpU8KGmFH",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    74
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          0,
+          19
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "id": 1105508863174995968,
+        "id_str": "1105508863174995968",
+        "indices": [
+          75,
+          98
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D1eOdC2XcAAjm3T.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D1eOdC2XcAAjm3T.jpg",
+        "url": "https://t.co/jfpU8KGmFH",
+        "display_url": "pic.twitter.com/jfpU8KGmFH",
+        "expanded_url": "https://twitter.com/Beauty4Ashes_1/status/1105508899891937286/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 300,
+            "h": 168,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 300,
+            "h": 168,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 300,
+            "h": 168,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105508863174995968,
+        "id_str": "1105508863174995968",
+        "indices": [
+          75,
+          98
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D1eOdC2XcAAjm3T.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D1eOdC2XcAAjm3T.jpg",
+        "url": "https://t.co/jfpU8KGmFH",
+        "display_url": "pic.twitter.com/jfpU8KGmFH",
+        "expanded_url": "https://twitter.com/Beauty4Ashes_1/status/1105508899891937286/photo/1",
+        "type": "animated_gif",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 300,
+            "h": 168,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 300,
+            "h": 168,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 300,
+            "h": 168,
+            "resize": "fit"
+          }
+        },
+        "video_info": {
+          "aspect_ratio": [
+            25,
+            14
+          ],
+          "variants": [
+            {
+              "bitrate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/D1eOdC2XcAAjm3T.mp4"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 702208058835927042,
+    "id_str": "702208058835927042",
+    "name": "Beauty for Ashes! \ud83d\udd4a",
+    "screen_name": "Beauty4Ashes_1",
+    "location": "Security Alert ~ Leave n Blank",
+    "description": "Look at the birds \ud83d\udd4a of the air: they neither sow nor reap nor gather in2 barns, and yet your heavenly Father feeds them. Are you not of more value than they?",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 2477,
+    "friends_count": 1555,
+    "listed_count": 14,
+    "created_at": "Tue Feb 23 19:07:02 +0000 2016",
+    "favourites_count": 24304,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 19552,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1105501095919521797/mRFCHA6B_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1105501095919521797/mRFCHA6B_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/702208058835927042/1552408564",
+    "profile_link_color": "1B95E0",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}
+{
+  "created_at": "Tue Mar 12 16:40:34 +0000 2019",
+  "id": 1105508894992941056,
+  "id_str": "1105508894992941056",
+  "full_text": "RT @ComplexMusic: Happy #NationalPancakeDay \ud83e\udd5e https://t.co/Fv7Wz6zS9O",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    69
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          24,
+          43
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "ComplexMusic",
+        "name": "Complex Music",
+        "id": 243163874,
+        "id_str": "243163874",
+        "indices": [
+          3,
+          16
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1105474182333325312,
+        "id_str": "1105474182333325312",
+        "indices": [
+          46,
+          69
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+        "url": "https://t.co/Fv7Wz6zS9O",
+        "display_url": "pic.twitter.com/Fv7Wz6zS9O",
+        "expanded_url": "https://twitter.com/ComplexMusic/status/1105474280983355392/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 640,
+            "h": 622,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 640,
+            "h": 622,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 640,
+            "h": 622,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 1105474280983355392,
+        "source_status_id_str": "1105474280983355392",
+        "source_user_id": 243163874,
+        "source_user_id_str": "243163874"
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105474182333325312,
+        "id_str": "1105474182333325312",
+        "indices": [
+          46,
+          69
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+        "url": "https://t.co/Fv7Wz6zS9O",
+        "display_url": "pic.twitter.com/Fv7Wz6zS9O",
+        "expanded_url": "https://twitter.com/ComplexMusic/status/1105474280983355392/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 640,
+            "h": 622,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 640,
+            "h": 622,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 640,
+            "h": 622,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 1105474280983355392,
+        "source_status_id_str": "1105474280983355392",
+        "source_user_id": 243163874,
+        "source_user_id_str": "243163874"
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 2502644629,
+    "id_str": "2502644629",
+    "name": "Lydell",
+    "screen_name": "Keon_blake10123",
+    "location": "",
+    "description": "",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 178,
+    "friends_count": 133,
+    "listed_count": 0,
+    "created_at": "Sat May 17 22:03:21 +0000 2014",
+    "favourites_count": 8486,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 168,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/888443828050546688/UlIHUEfh_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/888443828050546688/UlIHUEfh_normal.jpg",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Tue Mar 12 14:23:01 +0000 2019",
+    "id": 1105474280983355392,
+    "id_str": "1105474280983355392",
+    "full_text": "Happy #NationalPancakeDay \ud83e\udd5e https://t.co/Fv7Wz6zS9O",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      27
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NationalPancakeDay",
+          "indices": [
+            6,
+            25
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1105474182333325312,
+          "id_str": "1105474182333325312",
+          "indices": [
+            28,
+            51
+          ],
+          "media_url": "http://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+          "url": "https://t.co/Fv7Wz6zS9O",
+          "display_url": "pic.twitter.com/Fv7Wz6zS9O",
+          "expanded_url": "https://twitter.com/ComplexMusic/status/1105474280983355392/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 640,
+              "h": 622,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 640,
+              "h": 622,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 640,
+              "h": 622,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1105474182333325312,
+          "id_str": "1105474182333325312",
+          "indices": [
+            28,
+            51
+          ],
+          "media_url": "http://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D1du6WpX4AA1JoT.jpg",
+          "url": "https://t.co/Fv7Wz6zS9O",
+          "display_url": "pic.twitter.com/Fv7Wz6zS9O",
+          "expanded_url": "https://twitter.com/ComplexMusic/status/1105474280983355392/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 640,
+              "h": 622,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 640,
+              "h": 622,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 640,
+              "h": 622,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 243163874,
+      "id_str": "243163874",
+      "name": "Complex Music",
+      "screen_name": "ComplexMusic",
+      "location": "",
+      "description": "Making Music Pop. Never not listening.",
+      "url": "http://t.co/vFKC6TBUgG",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/vFKC6TBUgG",
+              "expanded_url": "http://www.complex.com/music",
+              "display_url": "complex.com/music",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 812473,
+      "friends_count": 979,
+      "listed_count": 3909,
+      "created_at": "Wed Jan 26 13:00:01 +0000 2011",
+      "favourites_count": 4977,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 96621,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/876840426128453632/bJE0cJIa_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/876840426128453632/bJE0cJIa_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/243163874/1542030308",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2F2F2",
+      "profile_text_color": "757575",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 658,
+    "favorite_count": 3057,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 658,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}
+{
+  "created_at": "Tue Mar 12 16:40:33 +0000 2019",
+  "id": 1105508892086292480,
+  "id_str": "1105508892086292480",
+  "full_text": "Finally made a @venmo account, thx @ChipotleTweets for the intro. So from what I\u2019ve seen, I post it to social media, use popular hashtags, then people just send me money? Am I doing this right ? #TuesdayMotivation #NationalPancakeDay #Aladdin #Web30 #TacoTuesday #AuntBecky https://t.co/0vN0dvWTLy",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    273
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "TuesdayMotivation",
+        "indices": [
+          195,
+          213
+        ]
+      },
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          214,
+          233
+        ]
+      },
+      {
+        "text": "Aladdin",
+        "indices": [
+          234,
+          242
+        ]
+      },
+      {
+        "text": "Web30",
+        "indices": [
+          243,
+          249
+        ]
+      },
+      {
+        "text": "TacoTuesday",
+        "indices": [
+          250,
+          262
+        ]
+      },
+      {
+        "text": "AuntBecky",
+        "indices": [
+          263,
+          273
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "venmo",
+        "name": "Venmo",
+        "id": 18580938,
+        "id_str": "18580938",
+        "indices": [
+          15,
+          21
+        ]
+      },
+      {
+        "screen_name": "ChipotleTweets",
+        "name": "Chipotle",
+        "id": 141341662,
+        "id_str": "141341662",
+        "indices": [
+          35,
+          50
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1105508885849346050,
+        "id_str": "1105508885849346050",
+        "indices": [
+          274,
+          297
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOeXUWkAI_TbN.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOeXUWkAI_TbN.jpg",
+        "url": "https://t.co/0vN0dvWTLy",
+        "display_url": "pic.twitter.com/0vN0dvWTLy",
+        "expanded_url": "https://twitter.com/CJMILL3R/status/1105508892086292480/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 744,
+            "h": 1190,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 425,
+            "h": 680,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 744,
+            "h": 1190,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105508885849346050,
+        "id_str": "1105508885849346050",
+        "indices": [
+          274,
+          297
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOeXUWkAI_TbN.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOeXUWkAI_TbN.jpg",
+        "url": "https://t.co/0vN0dvWTLy",
+        "display_url": "pic.twitter.com/0vN0dvWTLy",
+        "expanded_url": "https://twitter.com/CJMILL3R/status/1105508892086292480/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 744,
+            "h": 1190,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 425,
+            "h": 680,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 744,
+            "h": 1190,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 40365370,
+    "id_str": "40365370",
+    "name": "CJMILL3R",
+    "screen_name": "CJMILL3R",
+    "location": "Ohio, USA",
+    "description": "",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 129,
+    "friends_count": 304,
+    "listed_count": 5,
+    "created_at": "Fri May 15 23:56:40 +0000 2009",
+    "favourites_count": 4749,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 6162,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "BA700D",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1091048304887119882/TqK_bW06_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1091048304887119882/TqK_bW06_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/40365370/1510471423",
+    "profile_link_color": "ABB8C2",
+    "profile_sidebar_border_color": "0B0B09",
+    "profile_sidebar_fill_color": "030202",
+    "profile_text_color": "920ACD",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}
+{
+  "created_at": "Tue Mar 12 16:40:29 +0000 2019",
+  "id": 1105508875569061888,
+  "id_str": "1105508875569061888",
+  "full_text": "High Quality Minimalist and creative logo design.\nportfolio:  https://t.co/JLD516IkKf\nhttps://t.co/rZJ1koISSW\nDM me\n\nAunt Becky\n#QueenRadio\nFelicity Huffman\nAladdin\nLori Loughlin\n#Web30\n#SkipRidesTheTrollerCoaster\nOperation Varsity Blues\nFull House\n#NationalPancakeDay https://t.co/cGiEjZ9BRs",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    268
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "QueenRadio",
+        "indices": [
+          128,
+          139
+        ]
+      },
+      {
+        "text": "Web30",
+        "indices": [
+          179,
+          185
+        ]
+      },
+      {
+        "text": "SkipRidesTheTrollerCoaster",
+        "indices": [
+          186,
+          213
+        ]
+      },
+      {
+        "text": "NationalPancakeDay",
+        "indices": [
+          249,
+          268
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/JLD516IkKf",
+        "expanded_url": "https://goo.gl/GKe82Q",
+        "display_url": "goo.gl/GKe82Q",
+        "indices": [
+          62,
+          85
+        ]
+      },
+      {
+        "url": "https://t.co/rZJ1koISSW",
+        "expanded_url": "https://goo.gl/pFDqtg",
+        "display_url": "goo.gl/pFDqtg",
+        "indices": [
+          86,
+          109
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 1105508865347543040,
+        "id_str": "1105508865347543040",
+        "indices": [
+          269,
+          292
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOdK8V4AAdxSZ.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOdK8V4AAdxSZ.jpg",
+        "url": "https://t.co/cGiEjZ9BRs",
+        "display_url": "pic.twitter.com/cGiEjZ9BRs",
+        "expanded_url": "https://twitter.com/emranhossain013/status/1105508875569061888/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1363,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 453,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 799,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1105508865347543040,
+        "id_str": "1105508865347543040",
+        "indices": [
+          269,
+          292
+        ],
+        "media_url": "http://pbs.twimg.com/media/D1eOdK8V4AAdxSZ.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D1eOdK8V4AAdxSZ.jpg",
+        "url": "https://t.co/cGiEjZ9BRs",
+        "display_url": "pic.twitter.com/cGiEjZ9BRs",
+        "expanded_url": "https://twitter.com/emranhossain013/status/1105508875569061888/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1363,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 453,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 799,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 851019706626473984,
+    "id_str": "851019706626473984",
+    "name": "Emran Hossain",
+    "screen_name": "emranhossain013",
+    "location": "Bangladesh",
+    "description": "#Freelancer #GraphicDesigner #LogoDesigner #Branding if you need, Say hello : piximcrystal@gmail.com",
+    "url": "https://t.co/oZg7usssoo",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/oZg7usssoo",
+            "expanded_url": "https://goo.gl/GKe82Q",
+            "display_url": "goo.gl/GKe82Q",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 1225,
+    "friends_count": 1408,
+    "listed_count": 2,
+    "created_at": "Sun Apr 09 10:31:24 +0000 2017",
+    "favourites_count": 1673,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 5421,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1103379254371246080/yKQ59a4O_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1103379254371246080/yKQ59a4O_normal.png",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/851019706626473984/1551189805",
+    "profile_link_color": "FFFFFF",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}

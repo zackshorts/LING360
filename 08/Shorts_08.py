@@ -20,8 +20,10 @@ stops = stop_words.get_stop_words('en')
 stops.extend(['#jpmorgan', 'jp', '-', '@jpmorgan', '&amp', 'morgan', 'jpmorgan', 'morgan\'s'])
 
 
+# This function will calculate the sentiment averages for the hashtag and product
+# It will also populate the tweet lists.
 def calculate_sentiment():
-    with open("/Users/zacharyshorts/Documents/School/ComputerScience/LING360/08/jpmorgan.json") as json_file:
+    with open("jpmorgan.json") as json_file:
         for line in json_file:
             tweet = json.loads(line)
             if tweet['lang'] == 'en':
@@ -44,6 +46,7 @@ def calculate_sentiment():
         print("As you can see, the company's mean sentiment score is higher than the product's score.\n")
 
 
+# This function will calculate the top words from the positive and negative tweet lists.
 def calculate_top_words():
     for tweet in negative_tweets:
         words = tweet.split()

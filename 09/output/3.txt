@@ -1,0 +1,215 @@
+https://stackoverflow.com/questions/55311723/serializing-uitextview-with-custom-nstextcontainer-does-not-store-restore-the-te
+
+
+Serializing UITextView with custom NSTextContainer does not store/restore the text container
+
+
+            Ask Question
+        
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+I have a UITextView using a custom subclassed NSTextContainer. My subclass is called TDTBezierPathTextContainer. I am creating the UITextView like this:
+let textContainer = TDTBezierPathTextContainer(size:CGSize.zero) //NSTextContainer subclass
+...
+textView = UITextView(frame:r, textContainer:textContainer)
+
+This all works, but I need to store and restore the exact state of the text view. For this, I am using the NSCoding protocol.
+I am encoding the text view like this:
+override public func encode(with aCoder: NSCoder) {        
+    super.encode(with: aCoder)
+    aCoder.encode(textView, forKey: "textView")
+}
+
+I am decoding like this:
+public required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    if let textView = aDecoder.decodeObject(forKey: "textView") as? UITextView {
+        textView.delegate = self
+        addSubview(textView)
+        self.textView = textView
+    }
+}
+
+The problem is that encoding the UITextView does not encode my custom text container (even though it is in its graph). When I decode the text view, it seems to be using the default text container.
+Apparently, the only way to specify the text container is when the UITextView is instantiated, so it seems impossible to restore my text view with my custom text container.
+I have tried creating a new textview and setting all of the relevant properties the same, but the restore textview is slightly different.
+Is there any way to store/restore a UITextView with a custom NSTextContainer intact?
+
+
+
+ios serialization uitextview nscoding nstextcontainer
+
+
+
+
+
+share|improve this question
+
+
+
+
+        asked 15 mins ago
+
+
+
+
+
+Jeshua LacockJeshua Lacock
+
+3,13711637
+
+
+
+
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+0
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+ Sign up using Google
+                        
+
+ Sign up using Facebook
+                        
+
+ Sign up using Email and Password
+                        
+
+
+
+
+
+Post as a guest
+
+
+Name
+
+
+
+
+
+
+
+
+
+Email
+Required, but never shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post Your Answer                                    
+
+                                        Discard
+                                    
+
+                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+
+
+
+
+                            Browse other questions tagged ios serialization uitextview nscoding nstextcontainer  or ask your own question.                        
+
+

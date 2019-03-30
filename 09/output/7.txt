@@ -1,0 +1,820 @@
+https://stackoverflow.com/questions/55307489/how-to-hide-some-fields-of-struct-in-c
+
+
+How to hide some fields of struct in C?
+
+
+            Ask Question
+        
+
+
+
+
+
+
+
+
+9
+
+
+
+
+
+
+
+
+
+I'm trying to implement a struct person and I need to hide some fields or make them constant.
+A trick for create private fields.
+Header:
+#pragma once
+
+#define NAME_MAX_LEN 20
+
+typedef struct _person {
+    float wage;
+    int groupid;
+} Person;
+
+const char const *getName (Person *p);
+int getId (Person *p);
+
+/// OTHER FUNCTIONS
+
+Source
+#include "person.h"
+
+
+struct _person
+{
+    int id;
+
+    float wage;
+    int groupid;
+
+    char name[NAME_MAX_LEN];
+};
+
+/// FUNCTIONS
+
+GCC says that person.c:7:8: error: redefinition  a 'struct _person' struct _person
+I can write this in a header, but after it, I can't use fields of a struct.
+typedef struct _person Person;
+
+
+
+
+c typedef
+
+
+
+
+
+share|improve this question
+
+
+
+
+edited 10 hours ago
+
+
+
+
+
+dbush
+
+103k13108145
+
+
+ 
+
+
+
+        asked 11 hours ago
+
+
+
+
+
+WootiaeWootiae
+
+462
+
+
+
+
+
+ New contributor
+
+
+
+
+Wootiae is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
+Check out our Code of Conduct.            
+
+
+
+
+
+
+
+
+
+
+
+
+8
+
+
+
+
+C doesn't let you selectively hide fields. There's no private here.
+                
+                    – user2357112
+11 hours ago
+
+
+
+
+
+
+
+
+
+
+@user2357112 How to protect from edit my variables (id and name)?
+                
+                    – Wootiae
+11 hours ago
+
+
+
+
+
+
+1
+
+
+
+
+An unusual (not say BOFH) approach to the "no really, just because I let you see the internals doesn't mean it is OK for you to mess with them" problem in a comment elsewhere on the site: stackoverflow.com/questions/31195551/…
+                
+                    – dmckee
+7 hours ago
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+                                4 Answers
+                            4
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+
+
+
+
+
+17
+
+
+
+
+
+
+A struct cannot have multiple conflicting definitions.  As such, you can't create a struct that hides some of the fields.
+What you can do however it declare that the struct exists in the header without defining it.  Then the caller is restricted to using only a pointer to the struct and using functions in your implementation to modify it.
+For example, you could define your header as follows:
+typedef struct _person Person;
+
+Person *init(const char *name, int id, float wage, int groupid);
+
+const char *getName (const Person *p);
+int getId (const Person *p);
+float getWage (const Person *p);
+int getGroupid (const Person *p);
+
+And your implementation would contain:
+#include "person.h"
+
+struct _person
+{
+    int id;
+
+    float wage;
+    int groupid;
+
+    char name[NAME_MAX_LEN];
+};
+
+Person *init(const char *name, int id, float wage, int groupid)
+{
+    Person *p = malloc(sizeof *p);
+    strcpy(p->name, name);
+    p->id = id;
+    p->wage= wage;
+    p->groupid= groupid;
+    return p;
+}
+
+...
+
+
+
+
+
+share|improve this answer 
+
+
+
+edited 10 hours ago
+
+
+
+
+
+
+
+ 
+
+
+
+        answered 11 hours ago
+
+
+
+
+
+dbushdbush
+
+103k13108145
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I would add const pointers: int getId (const Person *p); so functions can be called with constant pointers (since they're just getters)
+                
+                    – Jean-François Fabre♦
+11 hours ago
+
+
+
+
+
+
+1
+
+
+
+
+@Jean-FrançoisFabre Good idea.  Updated.  Also, congrats on the diamond!
+                
+                    – dbush
+11 hours ago
+
+
+
+
+
+
+
+
+
+
+Can I "show" wage and groupid? for use p->wage?
+                
+                    – Wootiae
+11 hours ago
+
+
+
+
+
+
+
+
+
+
+@Wootiae Not in the calling code, because it doesn't know what Person contains.  Your implementation needs an accessor function to allow the user to read it.
+                
+                    – dbush
+11 hours ago
+
+
+
+
+
+
+
+
+
+
+How to use sizeof with it?
+                
+                    – Wootiae
+10 hours ago
+
+
+
+
+
+
+ | 
+show 1 more comment
+
+ 
+
+
+
+
+
+
+
+
+7
+
+
+
+
+
+
+C has no mechanism for hiding individual members of a structure type.  However, by operating only in terms of pointers to such a type, and not providing a definition, you can make the whole type opaque.  Users would then have to use the functions you provide to manipulate instances in any way.  This is a thing that is sometimes done.
+To some extent, you may be able to achieve something like what you describe with a hidden context.  For example, consider this:
+header.h
+typedef struct _person {
+    float wage;
+    int groupid;
+} Person;
+
+implementation.c
+struct _person_real {
+    Person person;  // must be first, and is a structure, not a pointer.
+    int id;
+    char name[NAME_MAX_LEN];
+};
+
+Now you can do this:
+Person *create_person(char name[]) {
+    struct _person_real *pr = malloc(sizeof(*pr));
+
+    if (pr) {
+        pr->person.wage = DEFAULT_WAGE;
+        pr->person.groupid = DEFAULT_GROUPID;
+        pr->id = generate_id();
+        strncpy(pr->name, name, sizeof(pr->name));
+        pr->name[sizeof(pr->name) - 1] = '\0';
+
+        return &pr->person;  // <-- NOTE WELL
+    } else {
+        return NULL;
+    }
+}
+
+A pointer to the first member of a structure always points also to the whole structure, too, so if the client passes a pointer obtained from that function back to you, you can
+struct _person_real *pr = (struct _person_real *) Person_pointer;
+
+and work on the members from the larger context.
+Be well aware, however, that such a scheme is risky.  Nothing prevents a user from creating a Person without the larger context, and passing a pointer to it to a function that expects the context object to be present.  There are other issues.
+Overall, C APIs generally either take the opaque structure approach or just carefully document what clients are permitted to do with the data they have access to, or even just document how everything works, so that users can make their own choices.  These, especially the latter, are well aligned with overall C approaches and idioms -- C does not hold your hand, or protect you from doing harm.  It trusts you to know what you're doing, and to do only what you intend to do.
+
+
+
+
+share|improve this answer 
+
+
+
+        answered 10 hours ago
+
+
+
+
+
+John BollingerJohn Bollinger
+
+84.2k74279
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+just document how everything works, so that users can make their own choices. The problem with that is you become locked into a specific implementation of your structure - which can only be a bad thing.  If you miss something in your implementation, or your implementation precludes some new functionality you didn't think of when you designed it, you likely can only make a change if you're willing to break user's code.
+                
+                    – Andrew Henle
+9 hours ago
+
+
+
+
+
+
+1
+
+
+
+
+Better to use a fully opaque pointer anyway so the user doesn't try allocating their own Person.
+                
+                    – Kevin
+8 hours ago
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+2
+
+
+
+
+
+
+You can use a mixin style; e.g. write in the header:
+struct person {
+    float wage;
+    int groupid;
+};
+
+struct person *person_new(void);
+char const *getName (struct person const *p);
+int getId (struct person const *p);
+
+and in the source
+struct person_impl {
+    struct person   p;
+    char            name[NAME_MAX_LEN];
+    int             id;
+}
+
+struct person *person_new(void)
+{
+    struct person_impl *p;
+
+    p = malloc(sizeof *p);
+    ...
+    return &p->p;
+}
+
+chra const *getName(struct person const *p_)
+{
+    struct person_impl *p =
+           container_of(p_, struct person_impl, p);
+
+    return p->name;
+}
+
+See e.g. https://en.wikipedia.org/wiki/Offsetof for details of container_of().
+
+
+
+
+share|improve this answer 
+
+
+
+        answered 10 hours ago
+
+
+
+
+
+enscensc
+
+4,466815
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+But then if the caller ever does anything with the returned struct person * other than getting fields with -> the hidden name and id will be lost and getName will return garbage. C won't realize that that is invalid at all.
+                
+                    – pbfy0
+4 hours ago
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+What John Bollinger wrote is a neat way of utilising how structs and memory works, but it's also an easy way to get a segfault (imagine allocating an array of Person and then later passing the last element to a 'method' which accesses the id or it's name), or corrupt your data (in an array of Person the next Person is overwriting 'private' variables of the previous Person). You'd have to remember that you must create an array of pointers to Person instead of array of Person (sounds pretty obvious until you decide to optimise something and think that you can allocate and initialise the struct more efficiently than the initialiser function).
+Don't get me wrong, it's a great way to solve the problem, but you've got to be careful when using it.
+What I'd suggest (though using 4/8 bytes more memory per Person) is to create a struct Person which has a pointer to another struct which is only defined in the .c file and holds the private data. That way it'd be harder to make a mistake somewhere (and if it's a bigger project then trust me - you'll do it sooner or later).
+.h file:
+#pragma once
+
+#define NAME_MAX_LEN 20
+
+typedef struct _person {
+    float wage;
+    int groupid;
+
+    __personPriv *const priv;
+} Person;
+
+void personInit(Person *p, const char *name);
+Person* personNew(const char *name);
+
+const char const *getName (Person *p);
+int getId (Person *p);
+
+.c file:
+typedef struct {
+    int id;
+    char name[NAME_MAX_LEN];
+} __personPriv;
+
+const char const *getName (Person *p) {
+    return p->priv->name;
+}
+
+int getId (Person *p) {
+    return p->priv->id;
+}
+
+__personPriv* __personPrivNew(const char *name) {
+    __personPriv *ret = memcpy(
+        malloc(sizeof(*ret->priv)),
+        &(__personPriv) {
+            .id = generateId();
+        },
+        sizeof(*ret->priv)
+    );
+
+    // if(strlen(name) >= NAME_MAX_LEN) {
+    //     raise an error or something?
+    //     return NULL;
+    // }
+
+    strncpy(ret->name, name, strlen(name));
+
+    return ret;
+}
+
+void personInit(Person *p, const char *name) {
+    if(p == NULL)
+        return;
+
+    p->priv = memcpy(
+        malloc(sizeof(*p->priv)),
+        &(__personPriv) {
+            .id = generateId();
+        },
+        sizeof(*p->priv)
+    );
+
+    ret->priv = __personPrivNew(name);
+    if(ret->priv == NULL) {
+        // raise an error or something
+    }
+}
+
+Person* personNew(const char *name) {
+    Person *ret = malloc(sizeof(*ret));
+
+    ret->priv = __personPrivNew(name);
+    if(ret->priv == NULL) {
+        free(ret);
+        return NULL;
+    }
+    return ret;
+}
+
+Side note: this version can be implemented so that private block is allocated right after/before the 'public' part of the struct to improve locality. Just allocate sizeof(Person) + sizeof(__personPriv) and initialise one part as Person and second one as __personPriv.
+
+
+
+
+share|improve this answer 
+
+
+
+edited 8 hours ago
+
+
+
+
+
+
+
+ 
+
+
+
+        answered 9 hours ago
+
+
+
+
+
+GrabuszGrabusz
+
+4116
+
+
+
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+Wootiae is a new contributor. Be nice, and check out our Code of Conduct.
+                
+
+
+
+
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+ Sign up using Google
+                        
+
+ Sign up using Facebook
+                        
+
+ Sign up using Email and Password
+                        
+
+
+
+
+
+Post as a guest
+
+
+Name
+
+
+
+
+
+
+
+
+
+Email
+Required, but never shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post Your Answer                                    
+
+                                        Discard
+                                    
+
+                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+
+
+
+
+Not the answer you're looking for?                            Browse other questions tagged c typedef  or ask your own question.                        
+
+

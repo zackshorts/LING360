@@ -1,0 +1,219 @@
+https://stackoverflow.com/questions/55311747/how-to-deployee-keras-model-in-android-application
+
+
+How to deployee keras model in Android Application?
+
+
+            Ask Question
+        
+
+
+
+
+
+
+
+
+0
+
+
+
+1
+
+
+
+
+
+I am building an keras model with theano as backend to detect food, I have trained my model successfully. Now I am trying to deploy my model in android and I don't know how to deploy it in android. I have trained my model in jupyter notebook and my code is saved with extension ".ipynb" .
+
+
+
+android keras artificial-intelligence theano keras-layer
+
+
+
+
+
+share|improve this question
+
+
+
+
+        asked 12 mins ago
+
+
+
+
+
+Deep SolankiDeep Solanki
+
+1
+
+
+
+
+
+ New contributor
+
+
+
+
+Deep Solanki is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
+Check out our Code of Conduct.            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are using Keras with Theano backend. If you use it with TensorFlow backend, you can advantages of TensorFlow Lite which is supported on Android and iOS devices. You can directly run/inference the model on Android.
+                
+                    – Shubham Panchal
+3 mins ago
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+0
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+Deep Solanki is a new contributor. Be nice, and check out our Code of Conduct.
+                
+
+
+
+
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+ Sign up using Google
+                        
+
+ Sign up using Facebook
+                        
+
+ Sign up using Email and Password
+                        
+
+
+
+
+
+Post as a guest
+
+
+Name
+
+
+
+
+
+
+
+
+
+Email
+Required, but never shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post Your Answer                                    
+
+                                        Discard
+                                    
+
+                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+
+
+
+
+                            Browse other questions tagged android keras artificial-intelligence theano keras-layer  or ask your own question.                        
+
+

@@ -1,0 +1,257 @@
+https://stackoverflow.com/questions/55240544/how-to-handle-asynchronous-sendmessage-calls
+
+
+How to handle asynchronous sendMessage calls?
+
+
+            Ask Question
+        
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+My app communicates with its companion app (iOS or watchOS) using sendMessage(message:replyHandler:errorHandler:).  
+My understanding is that after calling this function, one has to wait until it is finished, i.e. until either replyHandler or errorHandler is called, before sendMessage can be called again.  
+In my case, sendMessage can be called by multiple asynchronous events. Thus, the calls have to be queued while an ongoing sendMessage has not been finished yet, and the oldest call each has to be dequeued when a sendMessage finishes.  
+I can imagine to set up a class storing the function parameters (message, replyHandler and errorHandler) as properties, and to define a fifo queue with such objects as elements, so that every time replyHandler or errorHandler is called, an object is dequeued and executed as sendMessage.  
+However, this seems a bit awkward to me. Is there an easier way to handle the problem?
+EDIT: 
+Maybe such queueing is done automatically by WatchKit? I cannot find anything in the docs.
+
+
+
+ios sendmessage watch-os watchconnectivity
+
+
+
+
+
+share|improve this question
+
+
+
+
+edited Mar 19 at 15:59
+
+
+
+
+Reinhard Männer
+
+
+
+ 
+
+
+
+        asked Mar 19 at 11:58
+
+
+
+
+
+Reinhard MännerReinhard Männer
+
+6,50023253
+
+
+
+
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+                                1 Answer
+                            1
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+I run several test that called sendMessage(message:replyHandler:errorHandler:) before replyHandler was called, and everything worked correctly, i.e. when I stopped sending messages, the remaining replyHandlers were called.
+So obviously sendMessage calls are queued internally, and one does not have to care about it.
+
+
+
+
+share 
+
+
+
+        answered 6 mins ago
+
+
+
+
+
+Reinhard MännerReinhard Männer
+
+6,50023253
+
+
+
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+ 
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+ Sign up using Google
+                        
+
+ Sign up using Facebook
+                        
+
+ Sign up using Email and Password
+                        
+
+
+
+
+
+Post as a guest
+
+
+Name
+
+
+
+
+
+
+
+
+
+Email
+Required, but never shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post Your Answer                                    
+
+                                        Discard
+                                    
+
+                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+
+
+
+
+Not the answer you're looking for?                            Browse other questions tagged ios sendmessage watch-os watchconnectivity  or ask your own question.                        
+
+

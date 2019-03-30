@@ -1,0 +1,213 @@
+https://stackoverflow.com/questions/55311779/database-design-for-large-datasets
+
+
+Database Design for large datasets
+
+
+            Ask Question
+        
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+I'm currently working on a database table desing where we will have a few hundred million records in it and I wonder what will be the best way of managing it. With these kind of datasets we will eventually run into maintenance issues like that a table restore or an alter table will take a long time. Now I have some ideas on how to handle that but maybe there's a better way?
+Since our data is more relevant the newer it is, we could split it up into a short time range (e.g. last 30 days) and the old dataset (older than last 30 days). For this I see two possibilities:
+Splitting it up into two partitions, the current partition and the old data partition
+Advantages:
+
+A Table Restore of the current data partition would be fast since it's not that big. In a case of emergency, we would restore this first and bring the system up again with just that data. This would be an acceptable scenario for the user
+We could read / write to the tables as normal - so no specific application logic needed
+
+Disadvantages:
+
+Migration scripts (alter table, we can use online but that doesn't work with every use case if I get that right) take a long time since they are still run against both of the partitions. A solution to this would be to take the old data partition offline for the user and run it in the background. So the user would not have access during that time to the old data but that would be ok. Is something like this possible?
+
+Splitting it manually into two tables and moving data with a nightly job. Ontop we put a view to select data
+Advantages:
+
+We could take the old data table offline by not include it in the view anymore and run alter table scripts. Once it is done, put it back into the view. Since the user wouldn't find the data anymore, he will also not be able to modify it
+A Table Restore would be quick since we would restore the current table first, update the view and let the user use it again. The restore of the old data table would take a while but that's ok
+
+Disadvantages:
+
+Since it's a view, we can only select through it. If it comes to modifying data, we would need to write update queries for both tables because a user want's to update old data. So from an application perspective it needs custom logic
+
+So my question is, what is best practice in such kind of a scenario? What would you suggest doing?
+Thanks
+
+
+
+mysql database mariadb large-data database-partitioning
+
+
+
+
+
+share
+
+
+
+
+        asked 8 mins ago
+
+
+
+
+
+LukLuk
+
+221512
+
+
+
+
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+0
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+ Sign up using Google
+                        
+
+ Sign up using Facebook
+                        
+
+ Sign up using Email and Password
+                        
+
+
+
+
+
+Post as a guest
+
+
+Name
+
+
+
+
+
+
+
+
+
+Email
+Required, but never shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post Your Answer                                    
+
+                                        Discard
+                                    
+
+                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+
+
+
+
+                            Browse other questions tagged mysql database mariadb large-data database-partitioning  or ask your own question.                        
+
+

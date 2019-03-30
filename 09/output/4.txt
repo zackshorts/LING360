@@ -1,0 +1,204 @@
+https://stackoverflow.com/questions/55311650/how-can-i-re-position-a-drawing-on-my-canvas-when-changing-from-portrait-to-land
+
+
+How can I re-position a drawing on my canvas when changing from portrait to landscape mode
+
+
+            Ask Question
+        
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+I am making a mobile app using Cordova and it has a dialog in which there is a canvas that can be drawn on using touch. When I tried switching from portrait to landscape the image drawn did not position correctly and disappeared from the view. I want to know how I can reposition it correctly when it changes orientation. Is there any standard mathematical code that can be applied to translate the drawing whenever the orientation is changed?
+
+
+
+javascript html canvas
+
+
+
+
+
+share|improve this question
+
+
+
+
+        asked 27 mins ago
+
+
+
+
+
+Ikim SSIkim SS
+
+122
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please add your code.
+                
+                    – Jack Bashford
+19 mins ago
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+0
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+ Sign up using Google
+                        
+
+ Sign up using Facebook
+                        
+
+ Sign up using Email and Password
+                        
+
+
+
+
+
+Post as a guest
+
+
+Name
+
+
+
+
+
+
+
+
+
+Email
+Required, but never shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post Your Answer                                    
+
+                                        Discard
+                                    
+
+                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+
+
+
+
+                            Browse other questions tagged javascript html canvas  or ask your own question.                        
+
+

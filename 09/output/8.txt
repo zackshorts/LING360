@@ -1,0 +1,218 @@
+https://stackoverflow.com/questions/55311672/how-to-save-the-result-of-running-a-python-in-a-ipynb-file
+
+
+How to save the result of running a python in a ipynb file?
+
+
+            Ask Question
+        
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+I'm a beginner of Python and want to use a Python file in an ipynb file to convert some experimental data. The python file is on the GitHub https://github.com/andygock/Thermocouple.
+This my code.
+%run -i C:/Users/.../tc --mode mv2k 
+
+I could only run the file and get a result, but I couldn't save the value like: 
+ X = %run -i C:/Users/.../tc --mode mv2k 
+
+I tried to use:
+command = 'python C:/Users/...tc.py --mode mv2k'
+r = os.popen(command) 
+info = r.readlines()
+
+But as the input data is an array, I can not add a variable into command.
+Do you have any suggestions? Thanks!
+
+
+
+python
+
+
+
+
+
+share
+
+
+
+
+        asked 23 mins ago
+
+
+
+
+
+AnnnnaAnnnna
+
+1
+
+
+
+
+
+ New contributor
+
+
+
+
+Annnna is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
+Check out our Code of Conduct.            
+
+
+
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+0
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+Annnna is a new contributor. Be nice, and check out our Code of Conduct.
+                
+
+
+
+
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+ Sign up using Google
+                        
+
+ Sign up using Facebook
+                        
+
+ Sign up using Email and Password
+                        
+
+
+
+
+
+Post as a guest
+
+
+Name
+
+
+
+
+
+
+
+
+
+Email
+Required, but never shown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post Your Answer                                    
+
+                                        Discard
+                                    
+
+                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+
+
+
+
+                            Browse other questions tagged python  or ask your own question.                        
+
+

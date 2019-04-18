@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55311723/serializing-uitextview-with-custom-nstextcontainer-does-not-store-restore-the-te
+https://ham.stackexchange.com/questions/13323/what-is-homebrew
 
 
-Serializing UITextView with custom NSTextContainer does not store/restore the text container
+What is homebrew?
 
 
             Ask Question
@@ -14,7 +14,7 @@ Serializing UITextView with custom NSTextContainer does not store/restore the te
 
 
 
-0
+2
 
 
 
@@ -23,37 +23,13 @@ Serializing UITextView with custom NSTextContainer does not store/restore the te
 
 
 
+$\begingroup$
 
-I have a UITextView using a custom subclassed NSTextContainer. My subclass is called TDTBezierPathTextContainer. I am creating the UITextView like this:
-let textContainer = TDTBezierPathTextContainer(size:CGSize.zero) //NSTextContainer subclass
-...
-textView = UITextView(frame:r, textContainer:textContainer)
-
-This all works, but I need to store and restore the exact state of the text view. For this, I am using the NSCoding protocol.
-I am encoding the text view like this:
-override public func encode(with aCoder: NSCoder) {        
-    super.encode(with: aCoder)
-    aCoder.encode(textView, forKey: "textView")
-}
-
-I am decoding like this:
-public required init?(coder aDecoder: NSCoder) {
-    super.init(coder: aDecoder)
-    if let textView = aDecoder.decodeObject(forKey: "textView") as? UITextView {
-        textView.delegate = self
-        addSubview(textView)
-        self.textView = textView
-    }
-}
-
-The problem is that encoding the UITextView does not encode my custom text container (even though it is in its graph). When I decode the text view, it seems to be using the default text container.
-Apparently, the only way to specify the text container is when the UITextView is instantiated, so it seems impossible to restore my text view with my custom text container.
-I have tried creating a new textview and setting all of the relevant properties the same, but the restore textview is slightly different.
-Is there any way to store/restore a UITextView with a custom NSTextContainer intact?
+My question is the title itself: what is homebrew (or home brewing)? And how do homebrews differ from ordinary ham radios?
 
 
 
-ios serialization uitextview nscoding nstextcontainer
+diy jargon
 
 
 
@@ -64,21 +40,121 @@ share|improve this question
 
 
 
-        asked 15 mins ago
+edited 6 hours ago
 
 
 
 
 
-Jeshua LacockJeshua Lacock
+Kevin Reid AG6YO♦
 
-3,13711637
-
-
+16.7k33272
 
 
+ 
 
 
+
+        asked 8 hours ago
+
+
+
+
+
+SumithranSumithran
+
+1178
+
+
+
+
+
+ New contributor
+
+
+
+
+Sumithran is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
+Check out our Code of Conduct.            
+
+
+
+
+
+$\endgroup$
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+                                1 Answer
+                            1
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+
+
+
+
+
+7
+
+
+
+
+
+$\begingroup$
+
+Homebrew is (as the name suggests) when you make your equipment yourself, as opposed to buying it.
+An amateur setup consists of many components - the largest and most complicated of which are a radio transceiver (or separate receiver and transmitter), and the antenna. A power supply is also needed, but these are relatively inexpensive compared to the cost of other components.
+Many people use a homebrew antenna, as it’s relatively straightforward to make a simple dipole and all it really costs is some wire and a balun. However, building a transceiver is a much more daunting task, unless you’re happy to stick with a single band and QRP.
+Some people became radio amateurs literally because they wanted the challenge of building large complex electronics projects that they could maintain and improve, while using the equipment on a daily basis. However, for us mere mortals it is beyond most people’s ability without a long time of research and learning, when you can spend money and get a reliable working radio.
+
+
+
+
+share|improve this answer 
+
+
+
+        answered 8 hours ago
+
+
+
+
+
+Scott Earle♦Scott Earle
+
+2,3421921
+
+
+
+
+
+$\endgroup$
 
 
 
@@ -97,28 +173,18 @@ add a comment | 
 
 
 
-0
-
-
-
-
-            active
-
-            oldest
-
-            votes
+                                Your Answer
+                            
 
 
 
 
 
-                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
 
 
 
-
-
-Your Answer
+Sumithran is a new contributor. Be nice, and check out our Code of Conduct.
+                
 
 
 
@@ -129,13 +195,7 @@ Your Answer
 
 
 
-
-
-
-
-
-
-Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+Thanks for contributing an answer to Amateur Radio Stack Exchange!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.Use MathJax to format equations. MathJax reference.To learn more, see our tips on writing great answers.
 
 
 
@@ -205,11 +265,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-                            Browse other questions tagged ios serialization uitextview nscoding nstextcontainer  or ask your own question.                        
+Not the answer you're looking for?                            Browse other questions tagged diy jargon  or ask your own question.                        
 
 

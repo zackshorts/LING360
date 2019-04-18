@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55311754/django-deleted-object-using-delete-method-and-now-getting-exception-type-i
+https://stackoverflow.com/questions/55733343/how-to-use-arm-template-for-vcore-based-elastic-pool-deployment
 
 
-Django - deleted object using .delete() method and now getting Exception Type: IntegrityError
+How to use ARM template for Vcore based Elastic Pool deployment?
 
 
             Ask Question
@@ -9,6 +9,9 @@ Django - deleted object using .delete() method and now getting Exception Type: I
 
 
 
+
+.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}
 
 
 
@@ -24,91 +27,11 @@ Django - deleted object using .delete() method and now getting Exception Type: I
 
 
 
-I created a learning log blog by following Python Crash Course and I noticed that there were some topics that I did not need.  So I used the learning_log.objects.filter(id=id number).delete() in the python manage.py shell to delete some duplicate items.  I then tried to add new topics and received this error:
-IntegrityError at /new_topic/
-NOT NULL constraint failed: learning_logs_topic.owner_id
-In the models.py file, I have tried passing default='' to text = models.TextField(), passing null=True,blank=True to the models.TextField, running manage.py makemigrations --fake and rerunning makemigrations/migrate.  But nothing seems to fix this issue.   I am trying to avoid deleting my database and starting over, but I think that might be the only solution.
-Models.py
-from django.db import models
-from django.contrib.auth.models import User
-
-class Topic(models.Model):
-    """A topic the user is learning about."""
-    id = models.IntegerField(primary_key=True)
-    text = models.CharField(max_length=200,default=" ")
-    date_added = models.DateTimeField(auto_now_add=True)
-    owner = models.ForeignKey(User, on_delete=models.CASCADE)
-
-    def __str__(self):
-        """Returning a string represetation of the model."""
-        return self.text
-
-class Entry(models.Model):
-    """Something specific learned about a topic."""
-    id = models.IntegerField(primary_key=True) #added after deleting topic and getting error
-    topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
-    text = models.TextField(null=True,blank=True)
-    date_added = models.DateTimeField(auto_now_add=True)
-
-    class Meta:
-        verbose_name_plural = 'entries'
-
-    def __str__(self):
-        """Return a string representation of model"""
-        if len(self.text) > 50:
-            return self.text[:50] + '...'
-        else:
-            return self.text
-
-Views.py
-def index(request):
-    '''The home page for Learning Log'''
-    return render(request, 'learning_logs/index.html')
-
-def topics(request):
-    """Show all topics"""
-    topics = Topic.objects.order_by('date_added')
-    context = {'topics': topics}
-    return render(request, 'learning_logs/topics.html', context)
-
-def topic(request, topic_id):
-    '''Show all topics and all its entries.'''
-    topic = Topic.objects.get(id=topic_id)
-    entries = topic.entry_set.order_by('-date_added')    
-    context = {'topic': topic, 'entries': entries}
-    return render(request, 'learning_logs/topic.html', context)
-
-def new_topic(request):
-    '''Add a new topic'''
-    if request.method != 'POST':
-        # No data submitted, create a blank form
-        form = TopicForm()
-    else:
-        # POST data submitted, processes data
-        form = TopicForm(data=request.POST)
-        if form.is_valid():
-            form.save()
-            return HttpResponseRedirect(reverse('learning_logs:topics'))
-    context = {'form': form}
-    return render(request, 'learning_logs/new_topic.html', context)
-
-new_topic.html
-{% extends 'learning_logs/base.html' %}
-
-{% block content %}
-    <p>Add a topic:</p>
-    <form action="{% url 'learning_logs:new_topic' %}"method='post'>
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button name="submit"> add topic</button>
-    </form>
-{% endblock content %}
-
-The expected result is to click "Add a new topic", enter topic into text field, click add topic and the be returned to Topics page with the recently added topic in list.
+I am trying to use Azure ARM template (https://github.com/Azure/azure-quickstart-templates/blob/master/101-sql-elastic-pool-create/azuredeploy.json) to create SQL azure elastic pool, I am able use it and create eDTU based elastic pools, however I need to create Vcore based, Any leads on it?
 
 
 
-python-3.x django-models
+azure deployment azure-resource-manager arm-template azure-elasticpool
 
 
 
@@ -119,15 +42,28 @@ share|improve this question
 
 
 
-        asked 11 mins ago
+edited 2 mins ago
+
+
+
+
+Yash Ghia
+
+
+
+ 
+
+
+
+        asked 5 hours ago
 
 
 
 
 
-Pabl0Ram0nPabl0Ram0n
+Yash GhiaYash Ghia
 
-1
+33
 
 
 
@@ -173,7 +109,9 @@ add a comment | 
 
 
 
-Your Answer
+
+                                Your Answer
+                            
 
 
 
@@ -260,11 +198,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-                            Browse other questions tagged python-3.x django-models  or ask your own question.                        
+                            Browse other questions tagged azure deployment azure-resource-manager arm-template azure-elasticpool  or ask your own question.                        
 
 

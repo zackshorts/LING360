@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55311672/how-to-save-the-result-of-running-a-python-in-a-ipynb-file
+https://stackoverflow.com/questions/55737160/mixitup-multifilter-display-issue-with-data-filter-all
 
 
-How to save the result of running a python in a ipynb file?
+Mixitup Multifilter display issue with data-filter=“all”
 
 
             Ask Question
@@ -9,6 +9,9 @@ How to save the result of running a python in a ipynb file?
 
 
 
+
+.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}
 
 
 
@@ -24,55 +27,244 @@ How to save the result of running a python in a ipynb file?
 
 
 
-I'm a beginner of Python and want to use a Python file in an ipynb file to convert some experimental data. The python file is on the GitHub https://github.com/andygock/Thermocouple.
-This my code.
-%run -i C:/Users/.../tc --mode mv2k 
-
-I could only run the file and get a result, but I couldn't save the value like: 
- X = %run -i C:/Users/.../tc --mode mv2k 
-
-I tried to use:
-command = 'python C:/Users/...tc.py --mode mv2k'
-r = os.popen(command) 
-info = r.readlines()
-
-But as the input data is an array, I can not add a variable into command.
-Do you have any suggestions? Thanks!
+I have a simple Mixitup setup with 3 data-filter-groups: Size, Location and Availability.
+Location group has 3 options: ALL LOCATIONS, SOHO & NOMAD. 
+"All locations" button's data-filter is set to "all". 
+If I click on "soho" or "nomad" and then back to "all locations", ".mix" classname is outputted on the console as it should but when I combine "All locations" with the size data-filter-group the outputted filter is .classNameFromOtherFilterGroupall (all word is added to the end of the classname from the size filter group) so since this is not a valid classname, nothing is displayed. 
+The same issues happens when I click on "All locations" and any other property from availability filter group but this time "all" word is appended to the beginning all.classNameFromOtherFilterGroup
+In both cases nothing is displayed as the combination is not a valid selector. My code is below:
 
 
 
-python
+fieldset {
+  border: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.private-office-container_controls-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: #f2f2f2;
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 800;
+  color: #252525;
+  transition: background 150ms;
+  border: 1px solid #979797;
+}
+
+.private-office-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.private-office-container_item {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: left;
+  background-color: white;
+  color: #252525;
+  border-bottom: 1px solid #979797;
+  border-left: 1px solid #979797;
+  border-right: 1px solid #979797;
+}
+
+.private-office-container_header {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.private-office-container_info {
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.private-office-container_form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.private-office-container_controls-item {
+  display: flex;
+  background-color: white;
+  border: 1px solid #d2d2d2;
+}
+
+.private-office-container_controls-item>button,
+.private-office-container_button {
+  border: none;
+  padding: 1em;
+  background-color: transparent;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.private-office-container_controls-item>button:hover {
+  background-color: green;
+  color: white;
+}
+
+.private-office-container_controls-item__size>button {
+  padding: 1em;
+  background-color: transparent;
+  color: #252525;
+}
+
+.private-office-container_controls-text {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  background-color: #D2D2D2;
+}
+
+.private-office-container_controls-text__size {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  background-color: #D2D2D2;
+}
+
+.private-office-container_controls-text__header {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.5em;
+  font-weight: 300;
+}
+
+.mixitup-control-active {
+  background-color: green !important;
+  color: white !important;
+}
+<head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+<script src="https://sancar.work/mixitup-multifilter.min.js"></script>
+
+  <script>
+    var mixer = mixitup('.private-office-container', {
+      multifilter: {
+        enable: true
+      },
+      animation: {
+        animateResizeTargets: true
+      },
+      callbacks: {
+        onMixStart: function(state, futureState) {
+          console.log(futureState.activeFilter.selector);
+        }
+      }
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="private-office-container_controls-container">
+    <p class="private-office-container_controls-text__header" style="display:none">Size of your team</p>
+    <div class="private-office-container_controls-item private-office-container_controls-item__size" data-filter-group>
+      <p class="private-office-container_controls-text__size">Size of your team</p>
+      <button type="button" data-toggle=".filter-size-1">1 person</button>
+      <button type="button" data-toggle=".filter-size-2-3">2 - 3 person</button>
+      <button type="button" data-toggle=".filter-size-4-6">4 - 6 person</button>
+      <button type="button" data-toggle=".filter-size-6-8">6 - 8 person</button>
+      <button type="button" data-toggle=".filter-size-8-12">8 - 12 person</button>
+      <button type="button" data-toggle=".filter-size-12">12+ person</button>
+    </div>
+
+    <form class="private-office-container_form">
+      <div class="private-office-container_controls-item private-office-container_controls-item__location" data-filter-group>
+        <p class="private-office-container_controls-text">Location</p>
+        <button type="button" data-filter="all">All Locations</button>
+        <button type="button" data-filter=".filter-location_soho-east">Soho East</button>
+        <button type="button" data-filter=".filter-location_nomad">Nomad</button>
+      </div>
+
+
+      <div class="private-office-container_controls-item private-office-container_controls-item__date" data-filter-group>
+        <p class="private-office-container_controls-text">Availability</p>
+        <button type="button" data-toggle=".filter-availability_now">Now</button>
+        <button type="button" data-toggle=".filter-availability_1mo">Within 1 month</button>
+        <button type="button" data-toggle=".filter-availability_3mo">Within 3 months</button>
+      </div>
+      <button class="private-office-container_button" type="reset">See All</button>
+    </form>
+  </div>
+
+  <div class="private-office-container">
+    <div class="mix private-office-container_item filter-size-1 filter-location_soho-east filter-availability_now" data-order="1">
+      <p class="private-office-container_header">1 Person Office</p>
+      <p class="private-office-container_info">Available Now ● Soho East
+        <br/> $750/mo
+      </p>
+    </div>
+    <div class="mix private-office-container_item filter-size-2-3 filter-location_nomad filter-availability_3mo" data-order="2">
+      <p class="private-office-container_header">2-3 Person Office</p>
+      <p class="private-office-container_info">Available Now ● Nomad
+        <br/> $1,250/mo
+      </p>
+    </div>
+    <div class="mix private-office-container_item filter-size-4-6 filter-location_soho-east filter-availability_1mo" data-order="3">
+      <p class="private-office-container_header">4-6 Person Office</p>
+      <p class="private-office-container_info">In 1 month ● Soho East
+        <br/> $2,750/mo
+      </p>
+    </div>
+    <div class="mix private-office-container_item filter-size-6-8 filter-location_nomad filter-availability_3mo" data-order="4">
+      <p class="private-office-container_header">6-8 Person Office</p>
+      <p class="private-office-container_info">In 3 months ● Nomad
+        <br/> $3,750/mo
+      </p>
+    </div>
+    <div class="mix private-office-container_item filter-size-12 filter-location_soho-east filter-availability_now" data-order="5">
+      <p class="private-office-container_header">16 Person Office</p>
+      <p class="private-office-container_info">Available Now ● Soho East
+        <br/> $9.500/mo
+      </p>
+    </div>
+  </div>
+
+
+</body>
+
+
+
+I am creating this on Squarespace - might there be a conflict with Squarespace's JS code?
+Thank you in advance!
+
+
+
+jquery mixitup
 
 
 
 
 
-share
+share|improve this question
 
 
 
 
-        asked 23 mins ago
-
-
-
-
-
-AnnnnaAnnnna
-
-1
+        asked 25 mins ago
 
 
 
 
 
- New contributor
+Sancar AyalpSancar Ayalp
 
+11
 
-
-
-Annnna is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
-Check out our Code of Conduct.            
 
 
 
@@ -117,17 +309,15 @@ add a comment | 
 
 
 
-Your Answer
+
+                                Your Answer
+                            
 
 
 
 
 
 
-
-
-Annnna is a new contributor. Be nice, and check out our Code of Conduct.
-                
 
 
 
@@ -208,11 +398,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-                            Browse other questions tagged python  or ask your own question.                        
+                            Browse other questions tagged jquery mixitup  or ask your own question.                        
 
 

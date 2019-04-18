@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55240544/how-to-handle-asynchronous-sendmessage-calls
+https://stackoverflow.com/questions/38160563/display-on-sale-products
 
 
-How to handle asynchronous sendMessage calls?
+Display On Sale Products
 
 
             Ask Question
@@ -10,31 +10,33 @@ How to handle asynchronous sendMessage calls?
 
 
 
-
-
-
-
-1
-
-
+.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}
 
 
 
 
 
-
-
-My app communicates with its companion app (iOS or watchOS) using sendMessage(message:replyHandler:errorHandler:).  
-My understanding is that after calling this function, one has to wait until it is finished, i.e. until either replyHandler or errorHandler is called, before sendMessage can be called again.  
-In my case, sendMessage can be called by multiple asynchronous events. Thus, the calls have to be queued while an ongoing sendMessage has not been finished yet, and the oldest call each has to be dequeued when a sendMessage finishes.  
-I can imagine to set up a class storing the function parameters (message, replyHandler and errorHandler) as properties, and to define a fifo queue with such objects as elements, so that every time replyHandler or errorHandler is called, an object is dequeued and executed as sendMessage.  
-However, this seems a bit awkward to me. Is there an easier way to handle the problem?
-EDIT: 
-Maybe such queueing is done automatically by WatchKit? I cannot find anything in the docs.
+0
 
 
 
-ios sendmessage watch-os watchconnectivity
+
+
+
+
+
+
+I am trying to use the method described in this answer (https://stackoverflow.com/a/28375823/235648) to create a paginated display of on sale products in my Wordpress Woocommerce site.
+I have this line in my pre_get_posts hook: $q->is_post_type_archive = true;
+If I keep this line as is, the page shows the 'Shop by Category' display (not the on sale items).
+I discovered that if I change it to false it does display all the on sale items, but in an expanded view, I want to display it as a tabular product view, as in the rest of the shop.
+What is going on?
+Thanks!
+
+
+
+wordpress woocommerce
 
 
 
@@ -45,35 +47,93 @@ share|improve this question
 
 
 
-edited Mar 19 at 15:59
+edited May 23 '17 at 11:58
 
 
 
 
-Reinhard Männer
 
+Community♦
+
+11
 
 
  
 
 
 
-        asked Mar 19 at 11:58
+        asked Jul 2 '16 at 13:14
 
 
 
 
 
-Reinhard MännerReinhard Männer
+Aviad P.Aviad P.
 
-6,50023253
-
-
+18.6k77897
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+Did you adjust the $sale_page_id = 487; to suit your site?
+                
+                    – helgatheviking
+Jul 2 '16 at 14:21
+
+
+
+
+
+
+
+
+
+
+Yep, and i also put some echo statements in the innermost blocks to make sure my code was actually running.
+                
+                    – Aviad P.
+Jul 2 '16 at 14:44
+
+
+
+
+
+
+
+
+
+
+Well I had to ask. :) What version of WC are you running? My code is kind of old, it could be that it doesn't work any longer.
+                
+                    – helgatheviking
+Jul 2 '16 at 15:12
+
+
+
+
+
+
+
+
+
+
+Woocommerce 2.6.1
+                
+                    – Aviad P.
+Jul 2 '16 at 15:44
 
 
 
@@ -119,8 +179,13 @@ add a comment | 
 
 
 
-I run several test that called sendMessage(message:replyHandler:errorHandler:) before replyHandler was called, and everything worked correctly, i.e. when I stopped sending messages, the remaining replyHandlers were called.
-So obviously sendMessage calls are queued internally, and one does not have to care about it.
+
+In WordPress Admin, click Pages->Add New
+Create a page called "On Sale" 
+The Page contents should be as follows: 
+[sale_products per_page="12"]
+
+Voila!  You now have a page showing products on sale.
 
 
 
@@ -129,15 +194,15 @@ share
 
 
 
-        answered 6 mins ago
+        answered 1 min ago
 
 
 
 
 
-Reinhard MännerReinhard Männer
+Scott C WilsonScott C Wilson
 
-6,50023253
+11.1k84572
 
 
 
@@ -160,7 +225,9 @@ add a comment | 
 
 
 
-Your Answer
+
+                                Your Answer
+                            
 
 
 
@@ -247,11 +314,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-Not the answer you're looking for?                            Browse other questions tagged ios sendmessage watch-os watchconnectivity  or ask your own question.                        
+Not the answer you're looking for?                            Browse other questions tagged wordpress woocommerce  or ask your own question.                        
 
 

@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55311219/what-method-does-webpack-use-to-show-the-sources-in-a-webpack-folder-in-dev
+https://stackoverflow.com/questions/55737315/reportnewincomingcall-completion-not-called
 
 
-What method does webpack use to show the sources in a 'webpack://' folder in dev tools?
+reportNewIncomingCall completion not called
 
 
             Ask Question
@@ -10,47 +10,67 @@ What method does webpack use to show the sources in a 'webpack://' folder in dev
 
 
 
-
-
-
-
-2
-
-
-
-2
+.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}
 
 
 
 
 
-If I use webpack in dev mode, when I open chrome dev tools, in the 'sources' tab, I can see a 'webpack://' folder with all my source code.
-
-I would like to know how I could do something similar with my own code (without webpack).
-Let's say that I want to program my own build system. This build system takes some source code then transpiles it. How can I show the original source code (including js, html, and css files) in a special folder (for example 'mysource://')?
-
-
-
-javascript webpack build source-maps
+0
 
 
 
 
 
-share|improve this question
 
 
 
 
-        asked 1 hour ago
+The reportNewIncomingCall completion argument isn't being called, which means that I'm not getting any feedback as to why my VOIP app isn't displaying the call receiving alert.    
+    func reportIncomingCall(uuid: UUID, handle: String, hasVideo: Bool = false, completion: ((NSError?) -> Void)?) {
+    // 1.
+    let update = CXCallUpdate()
+    update.remoteHandle = CXHandle(type: .phoneNumber, value: handle)
+    update.hasVideo = hasVideo
+
+    // 2.
+    provider.reportNewIncomingCall(with: uuid, update: update) { error in
+        if error == nil {
+            // 3.
+            let call = Call(uuid: uuid, handle: handle)
+            self.callManager.add(call: call)
+        }
+
+        // 4.
+        completion?(error as? NSError)
+    }
+}
+
+I am taking this from a Ray Wanderlich tutorial. 
+
+
+
+swift voip callkit
 
 
 
 
 
-OliOli
+share
 
-13.1k64058
+
+
+
+        asked 2 mins ago
+
+
+
+
+
+ScottyBladesScottyBlades
+
+1,9582027
 
 
 
@@ -96,7 +116,9 @@ add a comment | 
 
 
 
-Your Answer
+
+                                Your Answer
+                            
 
 
 
@@ -183,11 +205,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-                            Browse other questions tagged javascript webpack build source-maps  or ask your own question.                        
+                            Browse other questions tagged swift voip callkit  or ask your own question.                        
 
 

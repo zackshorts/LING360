@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55311705/cannot-resolve-symbol-id-layout-gravity
+https://electronics.stackexchange.com/questions/433132/circuit-to-zoom-in-on-mv-fluctuations-of-a-dc-signal
 
 
-cannot resolve symbol id , layout_gravity?
+Circuit to “zoom in” on mV fluctuations of a DC signal?
 
 
             Ask Question
@@ -10,27 +10,32 @@ cannot resolve symbol id , layout_gravity?
 
 
 
-
-
-
-
-0
-
-
+.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                margin-bottom:0;
+}
 
 
 
 
 
-
-
-I am getting error cannot resolve symbol false and cannot resolve android_gravity
-
+2
 
 
 
 
-android-layout
+
+
+
+
+\$\begingroup\$
+
+I have a signal that is roughly 0.2V + noise fluctuations of order 0.1-2 mV. Ideally I want to amplify this signal such that the mV fluctuations become about 1V. In other words I want to amplify the signal by about 1000x.
+However, if I flat out amplify the signal, the total signal becomes 200V + 1V fluctuations, which I can't reasonably read on some bench top DAQ (0-10V range).
+Is there some combination of circuit elements that can take my input 0.2V + 1mV signal and spit out only the amplified fluctuations (i.e. 0V + 1V fluctuations)?
+edit: I should say that these fluctuations are controlled by me physically squeezing a pressure gauge, so they aren't necessarily high frequency. Basically the signal rises to 0.202V when I squeeze, and 0.200V when I let go. I want to see that excess 0.002V blown up to 1V, but I may be squeezing and letting go slowly in general.
+
+
+
+operational-amplifier amplifier circuit-design signal-processing
 
 
 
@@ -41,21 +46,293 @@ share|improve this question
 
 
 
-        asked 18 mins ago
+edited 1 hour ago
+
+
+
+
+Marty
+
+
+
+ 
+
+
+
+        asked 2 hours ago
 
 
 
 
 
-Laman AnsariLaman Ansari
+MartyMarty
 
-94
-
-
+112
 
 
 
 
+
+ New contributor
+
+
+
+
+Marty is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
+Check out our Code of Conduct.            
+
+
+
+
+
+\$\endgroup\$
+
+
+
+
+
+
+
+
+
+
+
+\$\begingroup\$
+Are you interested in the signal? Or the noise? I can't tell from the writing. I'd normally assume that you don't want the signal part. But I'd rather not assume. Instead, just ask.
+\$\endgroup\$
+                    – jonk
+1 hour ago
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+                                4 Answers
+                            4
+
+
+
+
+            active
+
+            oldest
+
+            votes
+
+
+
+
+
+
+
+
+
+
+4
+
+
+
+
+
+\$\begingroup\$
+
+Capacitors block DC and pass AC.
+You can use a series capacitor into an opamp with whatever gain you need.
+Even better might be a simple RC high-pass filter...One capacitor (series) and one resistor (to ground) in front of your amplifier.
+Like this:
+
+simulate this circuit – Schematic created using CircuitLab
+R2 and R3 set your gain.  C1 and R1 set your low frequency cut-off. The formula you use to find the cutoff is:
+$$F\text{(Hz)} = \frac{1}{2 \pi  R  C}$$
+
+
+
+
+share|improve this answer 
+
+
+
+edited 1 hour ago
+
+
+
+
+
+Dave Tweed♦
+
+125k10155269
+
+
+ 
+
+
+
+        answered 2 hours ago
+
+
+
+
+
+evildemonicevildemonic
+
+2,653922
+
+
+
+
+
+\$\endgroup\$
+
+
+
+
+
+
+
+
+
+
+
+\$\begingroup\$
+Thank you for your answer! If you see my edit: will the capacitor block out the fluctuations if they aren't very fast (maybe a quick squeeze/release every 2 seconds)? i.e. a voltage difference when I squeeze a pressure gauge (squeezing vs not squeezing is only a ~1mV signal added to the 0.2V DC)
+\$\endgroup\$
+                    – Marty
+1 hour ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+\$\begingroup\$
+Yes, you will need to choose C1 and R1 based on the slowest change you wish to see.  The formula you use to find the cutoff is: F(Hz) = 1 / (2 * pi * R * C)
+\$\endgroup\$
+                    – evildemonic
+1 hour ago
+
+
+
+
+
+
+
+
+
+
+
+
+
+\$\begingroup\$
+Sorry, I am still trying to figure out how to insert the nice looking equations others use here.
+\$\endgroup\$
+                    – evildemonic
+1 hour ago
+
+
+
+
+
+
+1
+
+
+
+
+\$\begingroup\$
+It's called "MathJax". I've added your formula to your answer to show you how it's done. You can learn more by clicking on the help icon in the editor, select "Advanced Help" and scroll down to the section labeled "LaTeX", which also has a link to MathJax specifically. There's also this post on meta, which provides links to a number of quick references and other resources.
+\$\endgroup\$
+                    – Dave Tweed♦
+1 hour ago
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+\$\begingroup\$
+So if I wanted a gain of 1000 and a cutoff of 1 Hz, the following values might work? C1=100 uF, R1=1.5k ohm, R2=100k ohm, R3=100 ohm
+\$\endgroup\$
+                    – Marty
+1 hour ago
+
+
+
+
+
+
+ | 
+show 3 more comments
+
+ 
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+\$\begingroup\$
+
+Use a coupling capacitor prior to the amplifier. The DC signal will be blocked but the fluctuations will pass through.
+
+
+
+
+share|improve this answer 
+
+
+
+        answered 2 hours ago
+
+
+
+
+
+Charles HCharles H
+
+511
+
+
+
+
+
+\$\endgroup\$
 
 
 
@@ -79,28 +356,120 @@ add a comment | 
 
 
 
-            active
 
-            oldest
+\$\begingroup\$
 
-            votes
-
-
-
-
-
-                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
+Digital designer here so I'm not certain, but... 
+The other answers assume high-frequency fluctuations. Instead you want to subtract the 0.2 V and amplify that. You can use a summing amplifier to subtract the offset, if you've got positive and negative supply voltages. I think you can also use an inverting configuration where the non-inverting input is at 0.2V instead of ground. 
 
 
 
 
+share|improve this answer 
 
-Your Answer
+
+
+        answered 1 hour ago
 
 
 
 
 
+MattMatt
+
+31016
+
+
+
+
+
+\$\endgroup\$
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+0
+
+
+
+
+
+\$\begingroup\$
+
+Sure, just an ordinary inverting op-amp can do that:
+
+simulate this circuit – Schematic created using CircuitLab
+Remember that an op-amp wants to make its inputs the same. So if you put 2V on the non-inverting input, and the signal input is also 2V, the output will be 2V.
+But say the signal input is 2.1 V. The op-amp wants to make the non-inverting input also 2V, and will have to drive the output higher than 2V to make that happen due to the voltage divider action of R1 and R2. The selection of these resistors thus sets the gain.
+Keep in mind any source impedance will effectively add to R2, so if your sensor doesn't already have a low-impedance output, you may want to buffer it.
+You have a couple options for realizing V2, since you probably won't want to find a 2V battery. Since the op-amp's input impedance is quite high, this doesn't need to be a low impedance source, so it could be as simple as a potentiometer across the power supply. Of course this will make the circuit somewhat dependent on the supply voltage, and the small but non-zero input current to the op-amp will introduce some error, so if you require high precision you might find an adjustable voltage regulator more suitable.
+
+
+
+
+share 
+
+
+
+        answered 9 mins ago
+
+
+
+
+
+Phil FrostPhil Frost
+
+46.1k14114227
+
+
+
+
+
+\$\endgroup\$
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+
+
+
+
+
+
+                                Your Answer
+                            
+
+
+
+
+
+
+
+
+Marty is a new contributor. Be nice, and check out our Code of Conduct.
+                
 
 
 
@@ -111,8 +480,7 @@ Your Answer
 
 
 
-
-Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+Thanks for contributing an answer to Electrical Engineering Stack Exchange!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.Use MathJax to format equations. MathJax reference.To learn more, see our tips on writing great answers.
 
 
 
@@ -182,11 +550,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-                            Browse other questions tagged android-layout  or ask your own question.                        
+Not the answer you're looking for?                            Browse other questions tagged operational-amplifier amplifier circuit-design signal-processing  or ask your own question.                        
 
 

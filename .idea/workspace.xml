@@ -2,7 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60d86b1-50fa-420a-a0c2-df73639efc25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10/Shorts_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_all-must-take-upon-them-the-name-given-of-the-father.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_be-not-troubled.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_becoming-a-shepherd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_becoming-exemplary-latter-day-saints.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_believe-love-do.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_choose-you-this-day.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_come-listen-to-a-prophets-voice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_deep-and-lasting-conversion-to-heavenly-father-and-the-lord-jesus-christ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_divine-discontent.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_firm-and-steadfast-in-the-faith-of-christ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_for-him.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_gather-together-in-one-all-things-in-christ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_laying-the-foundation-of-a-great-work.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_lift-up-your-head-and-rejoice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_now-is-the-time.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_one-in-christ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_opening-remarks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_our-campfire-of-faith.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_parents-and-children.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_shepherding-souls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_sisters-participation-in-the-gathering-of-israel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_taking-upon-ourselves-the-name-of-jesus-christ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_the-correct-name-of-the-church.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_the-father.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_the-joy-of-unselfish-service.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_the-ministry-of-reconciliation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_the-role-of-the-book-of-mormon-in-conversion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_the-sustaining-of-church-officers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_the-vision-of-the-redemption-of-the-dead.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_truth-and-the-plan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_try-try-try.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_wilt-thou-be-made-whole.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_women-and-gospel-learning-in-the-home.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/gen_conf/2018-10_wounded.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/news_universe.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/solutions_lesson_12.1_topic_modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/topics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/Shorts_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/class_work.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/yelp_AZ_2018.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Shorts_final.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/Shorts_09.py" beforeDir="false" afterPath="$PROJECT_DIR$/09/Shorts_09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/output/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/output/9.txt" afterDir="false" />
     </list>
     <ignored path="08/~$orts_08.docx" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +77,59 @@
     <SUITE FILE_PATH="coverage/LING360$Shorts_01.coverage" NAME="Shorts_01 Coverage Results" MODIFIED="1549407752429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01" />
     <SUITE FILE_PATH="coverage/LING360$input_output.coverage" NAME="input_output Coverage Results" MODIFIED="1549561114564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03" />
     <SUITE FILE_PATH="coverage/LING360$vader_sentiment.coverage" NAME="vader_sentiment Coverage Results" MODIFIED="1552578259283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08" />
+    <SUITE FILE_PATH="coverage/LING360$Shorts_09.coverage" NAME="Shorts_09 Coverage Results" MODIFIED="1553328167374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09" />
     <SUITE FILE_PATH="coverage/LING360$Shorts_03.coverage" NAME="Shorts_03 Coverage Results" MODIFIED="1549686175093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03" />
     <SUITE FILE_PATH="coverage/LING360$Shorts_04.coverage" NAME="Shorts_04 Coverage Results" MODIFIED="1550287670873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04" />
     <SUITE FILE_PATH="coverage/LING360$Shorts_08__1_.coverage" NAME="Shorts_08 (1) Coverage Results" MODIFIED="1552786199105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08/Shorts_08.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="447">
+              <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/output/2015.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2568">
+              <caret line="3067" column="36" selection-start-line="3067" selection-start-column="36" selection-end-line="3067" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/output/2016.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22635">
+              <caret line="1509" column="36" selection-start-line="1509" selection-start-column="36" selection-end-line="1509" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/final/Shorts_final.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/output/2017.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14595">
+              <caret line="335" column="36" selection-start-line="335" selection-start-column="36" selection-end-line="335" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/output/2018.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18285">
+              <caret line="438" column="326" selection-start-line="438" selection-start-column="326" selection-end-line="438" selection-end-column="326" />
             </state>
           </provider>
         </entry>
@@ -49,12 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>there\'s</find>
-      <find>can\'t</find>
-      <find>We\'ll</find>
-      <find>We\'re</find>
-      <find>he\'s</find>
-      <find>aren\'t</find>
       <find>coul</find>
       <find>couldn</find>
       <find>[</find>
@@ -79,6 +169,12 @@
       <find>lang&quot;: &quot;en&quot;</find>
       <find>jpmcoin</find>
       <find>stops</find>
+      <find>json</find>
+      <find>nltk</find>
+      <find>adj</find>
+      <find>pd</find>
+      <find>full-c</find>
+      <find>get_te</find>
     </findStrings>
     <replaceStrings>
       <replace>\'</replace>
@@ -127,14 +223,30 @@
         <option value="$PROJECT_DIR$/08/tweets_REST.py" />
         <option value="$PROJECT_DIR$/08/get_tweets.py" />
         <option value="$PROJECT_DIR$/08/Shorts_08.py" />
+        <option value="$PROJECT_DIR$/10/solutions_lesson_12.1_topic_modeling.py" />
+        <option value="$PROJECT_DIR$/10/Shorts_10.py" />
+        <option value="$PROJECT_DIR$/11/class_work.py" />
+        <option value="$PROJECT_DIR$/10/test.py" />
+        <option value="$PROJECT_DIR$/10/topics.csv" />
+        <option value="$PROJECT_DIR$/11/Shorts_11.py" />
+        <option value="$PROJECT_DIR$/09/Shorts_09.py" />
+        <option value="$PROJECT_DIR$/final/final.py" />
+        <option value="$PROJECT_DIR$/final/scraper.py" />
+        <option value="$PROJECT_DIR$/final/output/2015.txt" />
+        <option value="$PROJECT_DIR$/final/output/2016.txt" />
+        <option value="$PROJECT_DIR$/final/output/2017.txt" />
+        <option value="$PROJECT_DIR$/final/output/2018.txt" />
+        <option value="$PROJECT_DIR$/final/Shorts_final.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -150,7 +262,7 @@
             <path>
               <item name="LING360" type="b2602c69:ProjectViewProjectNode" />
               <item name="LING360" type="462c0819:PsiDirectoryNode" />
-              <item name="08" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,6 +272,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -168,6 +281,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11" />
+      <recent name="$PROJECT_DIR$/10" />
       <recent name="$PROJECT_DIR$/05/output" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -186,8 +301,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Shorts_08 (1)">
-    <configuration name="Shorts_07" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.scraper">
+    <configuration name="Shorts_09" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LING360" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,12 +310,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07/Shorts_07.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09/Shorts_09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Shorts_08 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Shorts_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LING360" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,12 +332,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08/Shorts_08.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10/Shorts_10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Shorts_08" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Shorts_11 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LING360" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,12 +354,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08/tweet_stream_JSON.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11/Shorts_11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +368,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tweets_REST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="final" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LING360" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,12 +376,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/final" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08/get_tweets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/final/final.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,7 +390,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vader_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LING360" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,12 +398,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/final" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08/vader_sentiment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/final/scraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,11 +414,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Shorts_08 (1)" />
-        <item itemvalue="Python.tweets_REST" />
-        <item itemvalue="Python.vader_sentiment" />
-        <item itemvalue="Python.Shorts_08" />
-        <item itemvalue="Python.Shorts_07" />
+        <item itemvalue="Python.scraper" />
+        <item itemvalue="Python.Shorts_09" />
+        <item itemvalue="Python.final" />
+        <item itemvalue="Python.Shorts_11 (1)" />
+        <item itemvalue="Python.Shorts_10" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +456,13 @@
       <workItem from="1552694517971" duration="4331000" />
       <workItem from="1552699566268" duration="3971000" />
       <workItem from="1552780107054" duration="3377000" />
+      <workItem from="1553009987560" duration="2476000" />
+      <workItem from="1553310220377" duration="10187000" />
+      <workItem from="1553986107788" duration="10494000" />
+      <workItem from="1554219464441" duration="6283000" />
+      <workItem from="1554349756351" duration="7164000" />
+      <workItem from="1555513029247" duration="991000" />
+      <workItem from="1555542142800" duration="2728000" />
     </task>
     <task id="LOCAL-00001" summary="Adding some comments">
       <created>1552789241149</created>
@@ -360,7 +482,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69694000" />
+    <option name="totallyTimeSpent" value="110017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,15 +494,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12673056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32851636" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27649325" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39788055" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25058275" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32947975" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32851636" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32983682" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.46503496" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.33566433" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3891273" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13045794" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32851636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30635837" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39691713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32947975" />
@@ -388,14 +534,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32851636" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32851636" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2855478" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32983682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -407,6 +553,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10/solutions_lesson_12.1_topic_modeling.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/11/class_work.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10/Shorts_10.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10/test.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -415,9 +583,49 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="soup_2017.get_text()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LING360$Shorts_10.coverage" NAME="Shorts_10 Coverage Results" MODIFIED="1554395987919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10" />
+    <SUITE FILE_PATH="coverage/LING360$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1555546049384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/final" />
+    <SUITE FILE_PATH="coverage/LING360$test.coverage" NAME="test Coverage Results" MODIFIED="1554395942187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10" />
+    <SUITE FILE_PATH="coverage/LING360$final.coverage" NAME="final Coverage Results" MODIFIED="1555544014313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/final" />
+    <SUITE FILE_PATH="coverage/LING360$Shorts_11__1_.coverage" NAME="Shorts_11 (1) Coverage Results" MODIFIED="1554415400300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11" />
+    <SUITE FILE_PATH="coverage/LING360$Shorts_09.coverage" NAME="Shorts_09 Coverage Results" MODIFIED="1555544282248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09" />
+    <SUITE FILE_PATH="coverage/LING360$solutions_lesson_12_1_topic_modeling.coverage" NAME="solutions_lesson_12.1_topic_modeling Coverage Results" MODIFIED="1554003522183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10" />
+    <SUITE FILE_PATH="coverage/LING360$Shorts_11.coverage" NAME="Shorts_11 Coverage Results" MODIFIED="1554393225323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>soup_2017.get_text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall('&quot;(\w*)&quot;', word_string)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall('/&quot;(\w*)&quot;/', word_string)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall('/([a-zA-Z]*)', word_string)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>paragraph.get_text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>sorted_negative</expression-string>
         <language-id>Python</language-id>
@@ -439,149 +647,24 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>df.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01/Shorts_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+HI+HT+HI-HI-HI-HI+FH-HT-HT-HT+NNNN+0229257.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+HI+HT+HI-HI-HI-HI+FH-HT-HT-HT+NNNN+0695311.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+ID+DF+ID-ID-ID-ID+DF-DF-DF-DF+NNNN+0284673.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+IN+EN+IN-IN-IN-IN+EN-EN-EN-EN+WIKI+9992715.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+LY+SL+LY-LY-LY-LY+SL-SL-SL-SL+NNNN+0185531.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+SP+IT+SP-SP-SP-SP +IT-IT-IT-TA+NNNN+3716356.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+OP+OB+OP-OP-OP-OP+OB-OB-OB-OB+NNNN+3309652.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+NA+NE+NA-NA-NA-NA+NE-NE-NE-NE+NNNN+0157969.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+HI+HT+HI-HI-HI-HI+HT-HT-HT-HT+NNNN+0749710.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+NA+NE+NA-NA-NA-NA+NE-NE-NE-NE+NNNN+0098941.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/venv/lib/python2.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+HI+HT+HI-HI-HI-HI+HT-HT-HT-HT+NNNN+0004436.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+HI+HT+HI-HI-HI-HI+FH-HT-HT-HT+NNNN+0216610.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="38" column="315" selection-start-line="38" selection-start-column="314" selection-end-line="38" selection-end-column="315" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/1+HI+HT+HI-HI-HI-HI+FH-HT-HT-HT+NNNN+0142743.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Mini-CORE_new/Linguistics_Data.csv" />
-    <entry file="file://$PROJECT_DIR$/04/Linguistics_Data.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/05/Mini-CORE_new/1+HI+HT+HI-HI-HI-HI+FH-HT-HT-HT+NNNN+0142743.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/Shorts_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/output/IN_word_count.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/AWE_untagd/JA_BI_02.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/AWE_untagd/JA_BI_03.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/AWE_untagd/JA_BI_04.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/AWE_untagd/TB_BI_22.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/Shorts_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="103" column="118" selection-start-line="97" selection-start-column="17" selection-end-line="103" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/AWE_untagd/JA_BI_01.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07/AWE_untagd/TB_HI_01.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/Shorts_04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4445">
-          <caret line="286" column="29" selection-start-line="283" selection-end-line="286" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,24 +675,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05/output/HI_word_count.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05/output/ID_word_count.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/output/JA_BI.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
@@ -685,30 +752,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08/his_way.py" />
-    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/Shorts_07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="81" selection-start-line="117" selection-start-column="81" selection-end-line="117" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/Shorts_05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="31" selection-start-line="24" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08/jpmorgan.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26310">
@@ -716,9 +759,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js" />
     <entry file="file://$PROJECT_DIR$/08/get_tweets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -743,15 +784,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08/Shorts_08.py">
+    <entry file="file://$PROJECT_DIR$/09/output/8.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/output/2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/output/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/output/3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/output/9.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/output/4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/output/7.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/news_universe/topics.csv" />
+    <entry file="file://$PROJECT_DIR$/07/output/JA_BI.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/output/HI_word_count.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07/Shorts_07.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
+        <state relative-caret-position="-360">
+          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/past/types/oldstr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#80#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08/Shorts_08.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/yelp_AZ_2018.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-4955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/solutions_lesson_12.1_topic_modeling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="130" column="22" selection-end-line="130" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1554003522172" expanded="false" signature="2343:4088" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/Shorts_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/Shorts_04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5295">
+          <caret line="286" column="29" selection-start-line="283" selection-end-line="286" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/Shorts_05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/Shorts_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="74" selection-end-line="77" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/yelp.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/topics.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/class_work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/Shorts_11.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="3585">
+          <caret line="239" column="7" lean-forward="true" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/Shorts_11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/output/0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/Shorts_09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/output/2015.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2568">
+          <caret line="3067" column="36" selection-start-line="3067" selection-start-column="36" selection-end-line="3067" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/output/2017.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14595">
+          <caret line="335" column="36" selection-start-line="335" selection-start-column="36" selection-end-line="335" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/output/2018.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18285">
+          <caret line="438" column="326" selection-start-line="438" selection-start-column="326" selection-end-line="438" selection-end-column="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/output/2016.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22635">
+          <caret line="1509" column="36" selection-start-line="1509" selection-start-column="36" selection-end-line="1509" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/Shorts_final.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

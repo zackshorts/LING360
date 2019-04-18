@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55311779/database-design-for-large-datasets
+https://stackoverflow.com/questions/55737177/how-to-revome-duplicate-pictures-in-a-batch-file
 
 
-Database Design for large datasets
+How to revome duplicate pictures in a batch file?
 
 
             Ask Question
@@ -9,6 +9,9 @@ Database Design for large datasets
 
 
 
+
+.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}
 
 
 
@@ -24,53 +27,52 @@ Database Design for large datasets
 
 
 
-I'm currently working on a database table desing where we will have a few hundred million records in it and I wonder what will be the best way of managing it. With these kind of datasets we will eventually run into maintenance issues like that a table restore or an alter table will take a long time. Now I have some ideas on how to handle that but maybe there's a better way?
-Since our data is more relevant the newer it is, we could split it up into a short time range (e.g. last 30 days) and the old dataset (older than last 30 days). For this I see two possibilities:
-Splitting it up into two partitions, the current partition and the old data partition
-Advantages:
+i have a batch script, and i need it to find duplicate pictures then to only keep one of them (Keeping the oldest one)
+I didn't really find anything to work with since name and time of creation are different, sometime even the resolution is different
+since i want to check for duplicate in subfolder, i have this little piece of code
+@echo off
+FOR /D /R %%d IN (*.*) DO (
+cd %%d
+[the place where i need to remove duplicates]
+)
 
-A Table Restore of the current data partition would be fast since it's not that big. In a case of emergency, we would restore this first and bring the system up again with just that data. This would be an acceptable scenario for the user
-We could read / write to the tables as normal - so no specific application logic needed
-
-Disadvantages:
-
-Migration scripts (alter table, we can use online but that doesn't work with every use case if I get that right) take a long time since they are still run against both of the partitions. A solution to this would be to take the old data partition offline for the user and run it in the background. So the user would not have access during that time to the old data but that would be ok. Is something like this possible?
-
-Splitting it manually into two tables and moving data with a nightly job. Ontop we put a view to select data
-Advantages:
-
-We could take the old data table offline by not include it in the view anymore and run alter table scripts. Once it is done, put it back into the view. Since the user wouldn't find the data anymore, he will also not be able to modify it
-A Table Restore would be quick since we would restore the current table first, update the view and let the user use it again. The restore of the old data table would take a while but that's ok
-
-Disadvantages:
-
-Since it's a view, we can only select through it. If it comes to modifying data, we would need to write update queries for both tables because a user want's to update old data. So from an application perspective it needs custom logic
-
-So my question is, what is best practice in such kind of a scenario? What would you suggest doing?
-Thanks
+I want to have multiple files with the same picture and to only keep one, but i'm missing the crucial part of code that can find if picture are the same of not
 
 
 
-mysql database mariadb large-data database-partitioning
+batch-file cmd duplicates
 
 
 
 
 
-share
+share|improve this question
 
 
 
 
-        asked 8 mins ago
+edited 11 mins ago
+
+
+
+
+Mattlau04
+
+
+
+ 
+
+
+
+        asked 23 mins ago
 
 
 
 
 
-LukLuk
+Mattlau04Mattlau04
 
-221512
+14
 
 
 
@@ -116,7 +118,9 @@ add a comment | 
 
 
 
-Your Answer
+
+                                Your Answer
+                            
 
 
 
@@ -203,11 +207,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-                            Browse other questions tagged mysql database mariadb large-data database-partitioning  or ask your own question.                        
+                            Browse other questions tagged batch-file cmd duplicates  or ask your own question.                        
 
 

@@ -1,7 +1,7 @@
-https://stackoverflow.com/questions/55311650/how-can-i-re-position-a-drawing-on-my-canvas-when-changing-from-portrait-to-land
+https://stackoverflow.com/questions/55736847/interpolating-matrices-with-2-variables-and-1-dependend-value
 
 
-How can I re-position a drawing on my canvas when changing from portrait to landscape mode
+Interpolating matrices with 2 variables and 1 dependend value
 
 
             Ask Question
@@ -10,25 +10,42 @@ How can I re-position a drawing on my canvas when changing from portrait to land
 
 
 
-
-
-
-
-0
-
-
+.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}
 
 
 
 
 
+1
 
 
-I am making a mobile app using Cordova and it has a dialog in which there is a canvas that can be drawn on using touch. When I tried switching from portrait to landscape the image drawn did not position correctly and disappeared from the view. I want to know how I can reposition it correctly when it changes orientation. Is there any standard mathematical code that can be applied to translate the drawing whenever the orientation is changed?
 
 
 
-javascript html canvas
+
+
+
+
+I'm analyzing an induction motor, varying the frequency and absolute value of the stator current. Since the FEM-Tool only works with a current input, I need to vary the current over the frequency to obtain current-values of constant torque for each frequency.
+To generate a mesh, I use 2 for-loops:
+The outer loop sets the current.
+The inner loop varies the frequency with said current, gets the machine's torque and finally, the matrices are appended adding the current stator-current, frequency and torque each in seperate matrices. Plotted it looks like this:
+Example of the plot using the raw data
+For the plot I used smaller, more unprecise matrices and rather arbitrary values:
+I_S = [ 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 ];
+fre = [ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ];
+tor = [ 0 0.1 0.3 0.5 0.7 1 1.5 2 2.6 3.3 0 1.1 1.3 1.5 1.7 2 2.5 3 3.6 4.3 0 2.1 2.3 2.5 2.7 3 3.5 4 4.6 5.3 ];
+
+While tor is shown as the colormap in the plot. Each matrix has a length of 30.
+One simulation needs about 20-30 seconds. Thus, to get a precise mesh, the FEM-tool needs several hours to generate.
+I would like to interpolate the spaces in between the known ones.
+It seems that either the way of creating the matrices is the problem or the interp*...-functions of Octave/MATLAB simply don't work for this kind of interpolation.
+Is there a way to achieve a mesh/grid-like interpolation from this type of matrices? I found many examples with x,y as variables and z as a math-function but rarely 3 linear/non-linear matrices.
+
+
+
+matlab octave interpolation
 
 
 
@@ -39,36 +56,33 @@ share|improve this question
 
 
 
-        asked 27 mins ago
+        asked 1 hour ago
 
 
 
 
 
-Ikim SSIkim SS
+TobiKTobiK
 
-122
-
-
+61
 
 
 
 
 
+ New contributor
+
+
+
+
+TobiK is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
+Check out our Code of Conduct.            
 
 
 
 
 
 
-
-
-
-
-Please add your code.
-                
-                    – Jack Bashford
-19 mins ago
 
 
 
@@ -86,7 +100,8 @@ add a comment | 
 
 
 
-0
+                                1 Answer
+                            1
 
 
 
@@ -101,19 +116,83 @@ add a comment | 
 
 
 
-                                Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.                            
 
 
 
 
 
-Your Answer
+0
 
 
 
 
 
 
+Your data need to be in a meshgrid form, that is 2D:
+// Known data
+current = [0:2];
+frequency = [0:9];
+[current2D, frequency2D] = meshgrid(current,frequency);
+torque2D = [ 0 0.1 0.3; 0.5 0.7 1; 1.5 2 2.6; 3.3 0 1.1; 1.3 1.5 1.7; 2 2.5 3; 3.6 4.3 0; 2.1 2.3 2.5; 2.7 3 3.5; 4 4.6 5.3 ];
+
+// Interpolated data
+currentToInterpolate = [0.5 1.5];
+frequncyToInterpolate = [0.5 : 8.5];
+[currentToInterpolate2D, frequencyToInterpolate2D] = meshgrid(currentToInterpolate,frequncyToInterpolate);
+interpolatedTorque2D = interp2(current2D,frequency2D,torque2D,currentToInterpolate2D,frequencyToInterpolate2D);
+
+
+
+
+
+share|improve this answer 
+
+
+
+        answered 14 mins ago
+
+
+
+
+
+trymantryman
+
+745316
+
+
+
+
+
+
+
+
+
+
+
+
+add a comment | 
+
+
+ 
+
+ 
+
+
+
+
+
+                                Your Answer
+                            
+
+
+
+
+
+
+
+
+TobiK is a new contributor. Be nice, and check out our Code of Conduct.
+                
 
 
 
@@ -194,11 +273,11 @@ Post Your Answer
                                         Discard
                                     
 
-                                            By clicking "Post Your Answer", you agree to our terms of service, privacy policy and cookie policy
+                                            By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
 
 
 
 
-                            Browse other questions tagged javascript html canvas  or ask your own question.                        
+Not the answer you're looking for?                            Browse other questions tagged matlab octave interpolation  or ask your own question.                        
 
 

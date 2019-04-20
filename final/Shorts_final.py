@@ -1,4 +1,4 @@
-import os, re, string, json, statistics, pandas as pd
+import os, string, statistics, pandas as pd
 from nltk.sentiment.vader import SentimentIntensityAnalyzer as sia
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
@@ -34,37 +34,45 @@ data_2018 = []
 data_2017 = []
 current_sentiment = []
 all_sentiment = []
+# Reset this variable every time a letter is done
 paragraph_count = 1
 
+# Loop through the paragraphs in 2017
 for paragraph in letter2017.split("\n"):
     if paragraph == '':
         continue
-    length = len(paragraph.split())
     all_sentiment = []
+    # Loop through the words in the paragraph
     for word in paragraph.split():
         current_sentiment = sia().polarity_scores(word)
         all_sentiment.append(current_sentiment['compound'])
+    #     Add that paragraphs data to the 2017 data file
     data_2017.append([statistics.mean(all_sentiment), paragraph_count])
+    # This keeps track of where you are in the letter
     paragraph_count += 1
-    print(length)
     print(paragraph)
+#     Creates a dataframe so we can plot the data later on
 df_2017 = pd.DataFrame(data_2017, columns=['Sentiment', 'Paragraph'])
 paragraph_count = 1
+
+# Loop through the paragraphs in 2018
 for paragraph in letter2018.split("\n"):
     if paragraph == '':
         continue
-    length = len(paragraph.split())
     all_sentiment = []
+    # Loop through the words in the paragraph
     for word in paragraph.split():
         current_sentiment = sia().polarity_scores(word)
         all_sentiment.append(current_sentiment['compound'])
+    # Add that paragraphs data to the 2018 data file
     data_2018.append([statistics.mean(all_sentiment), paragraph_count])
     paragraph_count += 1
-    print(length)
+    # This keeps track of where you are in the letter
     print(paragraph)
+#     Creates a dataframe so we can plot the data later on
 df_2018 = pd.DataFrame(data_2018, columns=['Sentiment', 'Paragraph'])
 
-
+# Plots the data as a lineplot
 plot2017 = seaborn.lineplot(x="Paragraph", y="Sentiment", data=df_2017)
 plot2017.set_title("2017 JPMorgan Annual Report")
 plt.show()
